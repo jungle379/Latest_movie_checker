@@ -26,10 +26,10 @@ export default function Home() {
 
       <footer className="bg-bottom text-0.5xl h-300">
         <div className="flex">
-        <Link href="">
+        <Link href="/footer/beginner">
           <h4 className="flex-auto pl-20 ml-20 w-10">初めての方へ</h4>
         </Link>
-        <Link href="">
+        <Link href="/footer/creater">
           <h5 className="flex-auto pl-20 ml-20 w-10">作成者について</h5>
         </Link>
         </div>
