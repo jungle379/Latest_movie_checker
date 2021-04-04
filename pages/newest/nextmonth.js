@@ -7,9 +7,10 @@ export default function FirstPost() {
   return (
     <>
     <Head>
-      <title>次週公開予定</title>
+      <title>次月公開予定</title>
     </Head>
-    <Header></Header>
+    <Header>
+    </Header>
     <Footer></Footer>
     </>
   )
