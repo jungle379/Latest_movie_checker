@@ -7,20 +7,25 @@ export default function Home() {
   return (
     <div className="toppage">
       <Head>
-        <title>Latest_Movie_Checker</title>
+        <title>トップページ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-screen bg-green-100">
         <Header></Header>
         <div className="flex h-10">
           <Link href="/newest/latest">
-            <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">最新の映画</h1>
+            <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10 underline">最新の映画</h1>
           </Link>
           <Link href="/newest/nextweek">
-            <h2 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">来週公開予定の映画</h2>
+            <h2 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10 underline">来週公開予定の映画</h2>
           </Link>
           <Link href="/newest/nextmonth">
-            <h3 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">今月公開予定の映画</h3>
+            <h3 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10 underline">今月公開予定の映画</h3>
+          </Link>
+        </div>
+        <div className="">
+          <Link href="/">
+            <h4 className="underline text-2xl ml-20 mt-40">現在地から近くの映画館</h4>
           </Link>
         </div>
       </main>

@@ -5,10 +5,10 @@ export function Footer() {
     <footer className="bg-bottom text-0.5xl h-300">
     <div className="flex">
     <Link href="/../pages/footer/beginner">
-      <h4 className="flex-auto text-0.5xl ml-40 m-5 w-10">初めての方へ</h4>
+      <h1 className="flex-auto text-0.5xl ml-40 m-5 w-10">初めての方へ</h1>
     </Link>
     <Link href="/../pages/footer/creater">
-      <h5 className="flex-auto text-0.5xl ml-40 m-5 w-10">作成者について</h5>
+      <h2 className="flex-auto text-0.5xl ml-40 m-5 w-10">作成者について</h2>
     </Link>
     </div>
     <Link href="">
