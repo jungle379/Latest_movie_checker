@@ -24,8 +24,8 @@ export default function Home() {
           </Link>
         </div>
         <div className="">
-          <Link href="/">
-            <h4 className="underline text-2xl ml-20 mt-40">現在地から近くの映画館</h4>
+          <Link href="/near/map">
+            <h4 className="text-red-500 underline text-2xl ml-20 mt-40">現在地から近くの映画館</h4>
           </Link>
         </div>
       </main>
