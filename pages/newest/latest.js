@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
-import { getSortedPostsData } from '../lib/posts'
+import { getSortedPostsData } from '../../lib/posts'
 
 export default function Home({ allPostsData }) {
   return (

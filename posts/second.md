@@ -1,5 +1,5 @@
 ---
-title: 'Second'
+title: 'second'
 date: '2020-01-01'
 ---
 
