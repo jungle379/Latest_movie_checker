@@ -23,9 +23,10 @@ export default function Home() {
             <h3 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10 underline">今月公開予定の映画</h3>
           </Link>
         </div>
+        <h4 className="text-0.5xl text-yellow-800 mt-20">uploaded in 2021/04/12</h4>
         <div className="">
           <Link href="/near/map">
-            <h4 className="text-red-500 underline text-2xl ml-20 mt-40">現在地から近くの映画館</h4>
+            <h5 className="text-red-500 underline text-2xl ml-20 mt-40">現在地から近くの映画館</h5>
           </Link>
         </div>
       </main>
