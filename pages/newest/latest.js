@@ -15,9 +15,9 @@ export default function Home({ allPostsData }) {
       <h1 className="text-5xl pb-5 text-red-700 ml-20">今週公開の映画一覧</h1>
       {allPostsData.map(({id, title}) => {
         return (
-          <li className="" key={id}>
+          <li className="text-3xl text-blue-600 flex" key={id}>
           <Link href={`/posts/${id}`}>
-              <a>{title}</a>
+              <a className="mt-10 ml-20 pt-10">{title}</a>
             </Link>
             </li>
         )

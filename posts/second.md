@@ -1,11 +1,13 @@
 ---
-title: 'second'
-date: '2020-01-01'
+title: '名探偵コナン 緋色の弾丸(4/16公開予定)'
+date: '2021-04-16'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+<img src="/images/640.jpg" />
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+世界最大のスポーツの祭典「WSG -ワールド・スポーツ・ゲームス-」の記念すべき東京開催を迎えようとしている日本。その開会式に合わせて、日本の技術を総結集した、最高時速1,000kmを誇る世界初「真空超電導リニア」が新名古屋駅と東京に新設される芝浜駅間に開通することが発表された。世間の注目を集める中、名だたる大会スポンサーが集うパーティー会場で突如事件が発生し、企業のトップが相次いで拉致されてしまう異常事態に。その裏には事件を監視する赤井秀一の姿、そして赤井からの指令を待つFBIの姿があった。
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+監督：永岡智佳<br>
+<声の出演>高山みなみ、山崎和佳奈、小山力也、池田秀一、浜辺美波、緒方賢一、岩居由希子、高木渉、大谷育江、林原めぐみ
+
+上映時間:110分

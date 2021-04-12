@@ -16,4 +16,8 @@
 
 ## URL
 - https://github.com/jungle379/next_app
+
+## デプロイ先URL
+- https://vercel.com/jungle379/next-app
+
 ## サイトイメージ（スクショを貼る予定）

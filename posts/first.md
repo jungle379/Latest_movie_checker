@@ -1,11 +1,11 @@
 ---
-title: 'first'
-date: '2020-01-01'
+title: '約束の宇宙(4/16公開予定)'
+date: '2021-04-16'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+フランス人宇宙飛行士のサラ（エヴァ・グリーン）は、ドイツの欧州宇宙機関（ESA）で、長年の夢だった宇宙へ行く事を目指して、日々訓練に励んでいる。物理学者の夫トマス（ラース・アイディンガー）とは離婚し、7歳の幼い娘ステラ（ゼリー・ブーラン・レメル）と２人で暮らす彼女は、「プロキシマ」と名付けられたミッションのクルーに選ばれる。大喜びのサラだったが、このミッションに旅立てば、約１年もの間、娘と離れ離れになる。ステラを残し宇宙へ飛び立つまでに２ヶ月しかない。過酷な訓練の合間に、娘は母と約束する「打ち上げ前に２人でロケットを見たい」と。母は約束を果たし、無事に宇宙へ飛び立てるのか。
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+監督:アリス・ウィンクール<br>
+<出演>エヴァ・グリーン、ゼリー・ブーラン・レメル、マット・ディロン、ラース・アイディンガー、ザンドラ・ヒュラー
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+上映時間:107分
