@@ -9,3 +9,5 @@ date: '2021-04-16'
 <出演>エヴァ・グリーン、ゼリー・ブーラン・レメル、マット・ディロン、ラース・アイディンガー、ザンドラ・ヒュラー
 
 上映時間:107分
+
+上映劇場：https://eigakan.org/theaterpage/schedule.php?t=yakusokunosora
