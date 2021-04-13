@@ -10,4 +10,4 @@ date: '2021-04-16'
 
 上映時間:107分
 
-上映劇場：https://eigakan.org/theaterpage/schedule.php?t=yakusokunosora
+上映劇場：<https://eigakan.org/theaterpage/schedule.php?t=yakusokunosora>

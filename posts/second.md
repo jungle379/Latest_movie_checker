@@ -12,4 +12,4 @@ date: '2021-04-16'
 
 上映時間:110分
 
-上映劇場：https://theater.toho.co.jp/toho_theaterlist/conan-movie2020.html
+上映劇場：<https://theater.toho.co.jp/toho_theaterlist/conan-movie2020.html>
