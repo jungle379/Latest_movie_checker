@@ -11,3 +11,5 @@ date: '2021-04-16'
 <声の出演>高山みなみ、山崎和佳奈、小山力也、池田秀一、浜辺美波、緒方賢一、岩居由希子、高木渉、大谷育江、林原めぐみ
 
 上映時間:110分
+
+上映劇場：<https://theater.toho.co.jp/toho_theaterlist/conan-movie2020.html>
