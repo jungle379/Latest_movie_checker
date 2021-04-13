@@ -9,15 +9,15 @@
 - 公開順に作品及び上映劇場がまとめられているサイトを作成し、ページを開いただけで<br>
 人気作品やニッチな作品がどこで観られるかわかるようなサイトを作成する。
  
-## カテゴリー
-- NEWカテゴリー（公開1週目作品のまとめ）
-- NEXTカテゴリー（次週公開予定作品のまとめ）
-- AREAカテゴリー（近隣の映画館の検索ページ）
+## 機能
+- NEWページ（公開1週目作品のまとめ）
+- NEXTページ（次週及び当月公開予定作品のまとめ）
+- AREAページ（近隣の映画館の検索ページ、API取得による）
 
 ## URL
-- https://github.com/jungle379/next_app
+- https://github.com/jungle379/Latest_movie_chacker
 
 ## デプロイ先URL
-- https://vercel.com/jungle379/next-app
+- https://vercel.com/jungle379/Latest_movie_chacker
 
 ## サイトイメージ（スクショを貼る予定）
