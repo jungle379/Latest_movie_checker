@@ -18,6 +18,6 @@
 - https://github.com/jungle379/Latest_movie_chacker
 
 ## デプロイ先URL
-- https://vercel.com/jungle379/Latest_movie_chacker
+- https://vercel.com/jungle379/next-app
 
 ## サイトイメージ（スクショを貼る予定）
