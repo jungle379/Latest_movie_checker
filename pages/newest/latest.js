@@ -8,7 +8,7 @@ export default function Home({ allPostsData }) {
   return (
     <>
       <Head>
-        <title>最新情報</title>
+        <title>今週公開の映画一覧</title>
       </Head>
       <main className="h-screen bg-green-100">
       <Header></Header>
@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
         return (
           <li className="text-3xl text-blue-600 flex" key={id}>
           <Link href={`/posts/${id}`}>
-              <a className="mt-10 ml-20 pt-10">{title}</a>
+              <a className="ml-20 pt-10">{title}</a>
             </Link>
             </li>
         )
