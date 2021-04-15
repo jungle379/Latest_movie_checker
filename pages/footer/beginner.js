@@ -12,6 +12,7 @@ export default function FirstPost() {
     <main className="h-screen bg-green-100">
       <Header></Header>
       <div className="text-3xl ml-40">このサイトの使い方</div>
+      <Link href=""></Link>
       </main>
     <Footer></Footer>
     </>
