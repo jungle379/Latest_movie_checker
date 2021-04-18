@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
 
-export default function FirstPost() {
+export default function Creater() {
   return (
     <>
     <Head>
