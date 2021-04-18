@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main className="h-screen bg-green-100 min-w-min">
         <Header></Header>
-        <div className="flex h-10">
+        <div className="mt-36 flex h-10">
           <Link href="/newest/latest">
             <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">最新の映画</h1>
           </Link>

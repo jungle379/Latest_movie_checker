@@ -16,7 +16,7 @@ export default function Creater() {
     <Link href="https://twitter.com/hirokimorino">・twitter</Link>
     </div>
     <div className="text-2xl text-blue-500 ml-20 mt-20">
-    <Link href="/header/beginner">・facebook</Link>
+    <Link href="https://www.facebook.com/hiroki.morino.9/">・facebook</Link>
     </div>
     </main>
     <Footer></Footer>
