@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <main className="h-screen bg-green-100">
       <Header></Header>
-      <h1 className="text-5xl pb-5 text-red-700 ml-20">今週公開の映画一覧</h1>
+      <div className="text-5xl pb-5 text-red-700 ml-20">今週公開の映画一覧</div>
       {allPostsData.map(({id, title}) => {
         return (
           <li className="text-3xl text-blue-600 flex" key={id}>
