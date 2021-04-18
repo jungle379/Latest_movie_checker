@@ -6,10 +6,10 @@ export function Header() {
     <Link href="/">
       <a className="text-6xl text-red-400">Latest Movie Checker</a>
       </Link>
-      <Link href="/footer/beginner">
+      <Link href="/header/beginner">
       <h1 className="flex-auto text-0.5xl ml-20 m-5 w-10 text-pink-300">初めての方へ</h1>
     </Link>
-    <Link href="/footer/creater">
+    <Link href="/header/creater">
       <h2 className="flex-auto text-0.5xl ml-20 m-5 w-10 text-pink-300">作成者について</h2>
     </Link>
     </h1>

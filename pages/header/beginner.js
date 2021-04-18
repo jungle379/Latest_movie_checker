@@ -11,7 +11,7 @@ export default function Beginner() {
     </Head>
     <main className="h-screen bg-green-100">
       <Header></Header>
-      <div className="text-3xl ml-40">このサイトの使い方</div>
+      <div className="text-indigo-800 text-4xl ml-20">このサイトの使い方</div>
     <Footer></Footer>
     </main>
     </>
