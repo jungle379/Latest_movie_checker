@@ -5,7 +5,7 @@ import { Header } from '../components/header'
 
 export default function Home() {
   return (
-    <div className="toppage">
+    <div className="h-80">
       <Head>
         <title>トップページ</title>
         <link rel="icon" href="/favicon.ico" />
