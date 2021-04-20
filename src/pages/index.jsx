@@ -5,7 +5,7 @@ import { Header } from '../components/header'
 
 export default function Home() {
   return (
-    <div className="toppage">
+    <div className="h-80">
       <Head>
         <title>トップページ</title>
         <link rel="icon" href="/favicon.ico" />
@@ -24,9 +24,9 @@ export default function Home() {
           </Link>
         </div>
           <Link href="/near/map">
-            <h4 className="text-red-500 underline text-2xl ml-20 mt-20">現在地から近くの映画館</h4>
+            <h4 className="text-red-500 underline text-2xl ml-20 mt-20">現在地から近くの映画館を探す</h4>
           </Link>
-        <h5 className="text-0.5xl text-yellow-800 mt-40 ml-20">uploaded in 2021/04/15</h5>
+        <h5 className="text-0.5xl text-yellow-800 mt-10 ml-20">uploaded in 2021/04/15</h5>
       </main>
       <Footer></Footer>
     </div>
