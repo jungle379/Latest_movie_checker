@@ -3,6 +3,11 @@ import Link from 'next/link'
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
 
+const clickButton = (e) => {
+  console.log(e);
+  alert('ダミーなので他ページへ遷移しません')
+};
+
 export default function Beginner() {
   return (
     <>
@@ -18,7 +23,10 @@ export default function Beginner() {
         <ul className="mt-5 ml-40">・来週公開予定の映画　→次週公開予定の映画一覧ページに遷移します。</ul>
         <ul className="mt-5 ml-40">・今月公開予定の映画　→今月公開予定の映画一覧ページに遷移します。</ul>
         <h2 className="text-1xl ml-40 mt-10">外部リンクについて</h2>
-        <ul className="mt-5 ml-40">・各映画詳細ページに外部リンクを儲けています　→公開劇場一覧ページに遷移します。上映劇場は外部サイトから確認してください。</ul>
+        <ul className="mt-5 ml-40">・各映画詳細ページに外部リンクを儲けています　→公式サイトの公開劇場一覧ページに遷移します。上映劇場は外部サイトから確認してください。</ul>
+      </div>
+      <div className="hover:text-black mt-40 ml-80 underline">
+      <a onClick={clickButton}>問い合わせ先</a>
       </div>
     <Footer></Footer>
     </main>
