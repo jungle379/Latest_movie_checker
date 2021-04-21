@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+//import BreadCrumbs from '../../components/breadcrumbs'
 import { Footer } from '../components/footer'
 import { Header } from '../components/header'
 
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main className="h-full bg-green-100 min-w-min">
         <Header></Header>
+        {/* <BreadCrumbs></BreadCrumbs> */}
         <div className="mt-36 flex h-10">
           <Link href="/newest/latest">
             <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">最新の映画</h1>
