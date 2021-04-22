@@ -6,10 +6,8 @@ import { Header } from '../components/header'
 export default function Home() {
   return (
     <div className="h-80">
-      <Head>
         <title>トップページ</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
       <main className="h-full bg-green-100 min-w-min">
         <Header></Header>
         <div className="mt-36 flex h-10">

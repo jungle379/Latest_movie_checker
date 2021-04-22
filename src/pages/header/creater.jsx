@@ -9,9 +9,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 export default function Creater() {
   return (
     <>
-    <Head>
       <title>作成者情報</title>
-    </Head>
     <main className="h-screen bg-green-100">
       <Header></Header>
     <div className="text-3xl ml-20 text-red-500">作成者について

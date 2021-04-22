@@ -7,11 +7,10 @@ import { getSortedPostsData } from '../../../lib/posts'
 export default function Home({ allPostsData }) {
   return (
     <>
-      <Head>
-        <title>今週公開の映画一覧</title>
-      </Head>
       <main className="h-screen bg-green-100">
-      <Header></Header>
+      <Header>
+        <h1>今週公開の映画一覧</h1>
+      </Header>
       <div className="text-5xl pb-5 text-red-700 ml-20">今週公開の映画一覧</div>
       {allPostsData.map(({id, title}) => {
         return (

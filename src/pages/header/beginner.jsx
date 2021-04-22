@@ -11,9 +11,7 @@ const clickButton = (e) => {
 export default function Beginner() {
   return (
     <>
-    <Head>
       <title>初めての方へ</title>
-    </Head>
     <main className="h-screen bg-green-100">
       <Header></Header>
       <div className="text-indigo-800 text-4xl ml-20">このサイトの使い方</div>
