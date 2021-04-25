@@ -6,23 +6,23 @@ import { getSortedPostsData } from '../../../lib/posts'
 export default function Home({ allPostsData }) {
   return (
     <>
+      <title>今週公開の映画一覧</title>
       <main className="h-screen bg-green-100">
-      <Header>
-        <h1>今週公開の映画一覧</h1>
-      </Header>
-      <div className="text-5xl pb-5 text-red-700 ml-20">今週公開の映画一覧</div>
-      {allPostsData.map(({id, title}) => {
-        return (
-          <li className="text-3xl text-blue-600 flex" key={id}>
-          <Link href={`/posts/${id}`}>
-              <a className="ml-20 pt-10">{title}</a>
-            </Link>
+        <Header>
+        </Header>
+        <div className="text-5xl pb-5 text-red-700 ml-20">今週公開の映画一覧</div>
+        {allPostsData.map(({ id, title }) => {
+          return (
+            <li className="text-3xl text-blue-600 flex" key={id}>
+              <Link href={`/posts/${id}`}>
+                <a className="ml-20 pt-10">{title}</a>
+              </Link>
             </li>
-        )
-      })}
+          )
+        })}
       </main>
       <Footer></Footer>
-      </>
+    </>
   )
 }
 export async function getStaticProps() {
