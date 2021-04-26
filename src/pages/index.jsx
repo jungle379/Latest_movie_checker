@@ -5,8 +5,8 @@ import { Header } from '../components/header'
 export default function Home() {
   return (
     <div className="h-80">
-        <title>トップページ</title>
-        <link rel="icon" href="/favicon.ico" />
+      <title>トップページ</title>
+      <link rel="icon" href="/favicon.ico" />
       <main className="h-full bg-green-100 min-w-min">
         <Header></Header>
         <div className="mt-36 flex h-10">
@@ -24,8 +24,8 @@ export default function Home() {
           <Link href="/near/map">
             <h4 className="text-red-500 underline text-2xl ml-20 mt-20">現在地から近くの映画館を探す</h4>
           </Link>
-          </div>
-        <h5 className="text-0.5xl text-yellow-800 mt-40 ml-20">uploaded in 2021/04/15</h5>
+        </div>
+        <h5 className="text-0.5xl text-yellow-800 mt-40 ml-20">updated in 2021/04/15</h5>
       </main>
       <Footer></Footer>
     </div>
