@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
         {allPostsData.map(({ id, title }) => {
           return (
             <li className="text-3xl text-blue-600 flex" key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/posts/latest/${id}`}>
                 <a className="ml-20 pt-10">{title}</a>
               </Link>
             </li>
