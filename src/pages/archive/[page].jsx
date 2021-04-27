@@ -1,8 +1,8 @@
 import fs from "fs"
 import Link from "next/link"
+import { getSortedPostsData, listContentFiles } from "../../../lib/posts"
 import Layout from "../../components/layout"
 import Pager from "../../components/pager"
-import { getSortedPostsData, listContentFiles } from "../../lib/posts"
 
 const COUNT_PER_PAGE = 10
 
