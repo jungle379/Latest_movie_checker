@@ -25,8 +25,8 @@ export default function Home() {
             <h4 className="text-red-500 underline text-2xl ml-20 mt-20">現在地から近くの映画館を探す</h4>
           </Link>
         </div>
-        <div className="home-archive">
-          <Link href="/archive/[page]" as="/archive/1"><a>アーカイブ</a></Link>
+        <div className="ml-20">
+          <Link href="/archive/[page]">アーカイブ</Link>
         </div>
         <h5 className="text-0.5xl text-yellow-800 mt-40 ml-20">updated in 2021/04/15</h5>
       </main>
