@@ -10,7 +10,7 @@ export default function Archive(props) {
   const { posts, page, total, perPage } = props
   return (
     <Layout title="">
-      <h1>過去投稿一覧</h1>
+      <h1>今月の公開作品一覧</h1>
       {posts.map((post) => <div
         key={post.id}
         className="post-teaser"

@@ -26,7 +26,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="ml-20">
-          <Link href="/archive/[page]">アーカイブ</Link>
+          <Link href="/archive/[page]" as="/archive/1">アーカイブ</Link>
         </div>
         <h5 className="text-0.5xl text-yellow-800 mt-40 ml-20">updated in 2021/04/15</h5>
       </main>
