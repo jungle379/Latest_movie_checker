@@ -10,12 +10,13 @@ export default function Archive(props) {
   const { posts, page, total, perPage } = props
   return (
     <Layout title="">
-      <h1>今月の公開作品一覧</h1>
+      <h1 className="text-blue-800 text-4xl mb-20">今月の公開作品一覧</h1>
       {posts.map((post) => <div
         key={post.id}
         className="post-teaser"
       >
-        <h2><Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link></h2>
+        <h2 className="text-2xl text-red-500 ml-20">
+          <Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link></h2>
         <div><span>{post.published}</span></div>
       </div>)}
       <Pager
