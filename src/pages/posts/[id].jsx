@@ -11,7 +11,6 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <div><Link href="/archive/[page]" as="/archive/1"><a>← アーカイブへ戻る</a></Link></div>
       </article>
     </>
   )
