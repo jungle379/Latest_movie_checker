@@ -15,13 +15,13 @@ export default function Beginner() {
         <div className="text-indigo-800 text-4xl ml-20">このサイトの使い方</div>
         <div>
           <h1 className="text-1xl ml-40 mt-5">各ページについて</h1>
-          <ul className="mt-5 ml-40">・最新の映画　→今週公開予定の映画一覧ページに遷移します。</ul>
+          <ul className="mt-5 ml-40">・最新の映画　→今週公開予定の映画一覧ページに遷移します。一覧ページの各リンクは公式ページへ遷移します</ul>
           <ul className="mt-5 ml-40">・今月公開予定の映画　→今月公開予定の映画一覧ページに遷移します。</ul>
           <h2 className="text-1xl ml-40 mt-10">外部リンクについて</h2>
           <ul className="mt-5 ml-40">・各映画詳細ページに外部リンクを設けています　→公式サイトの公開劇場一覧ページに遷移します。上映劇場は外部サイトから確認してください。</ul>
           <ul className="mt-5 ml-40">・下部に問い合わせフォームへのボタンがあります。不明点は気兼ねなくお尋ねください。</ul>
         </div>
-        <div className="hover:bg-yellow-300 text-blue-500 mt-20 ml-80 underline w-40">
+        <div className="hover:bg-pink-200 text-blue-500 mt-20 ml-80 underline w-40">
           <button onClick={clickButton}>問い合わせフォームへ</button>
         </div>
         <Footer></Footer>
