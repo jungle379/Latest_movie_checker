@@ -1,7 +1,8 @@
 import fs from "fs"
 import Link from "next/link"
 import { getSortedPostsData, listContentFiles } from "../../../lib/posts"
-import Layout from "../../components/layout"
+import { Footer } from "../../components/footer"
+import { Header } from "../../components/header"
 import Pager from "../../components/pager"
 
 const COUNT_PER_PAGE = 10
@@ -9,30 +10,28 @@ const COUNT_PER_PAGE = 10
 export default function Archive(props) {
   const { posts, page, total, perPage } = props
   return (
-    <Layout><title>今月の公開作品一覧</title>
-      <h1 className="text-blue-800 text-4xl mb-20">今月の公開作品一覧</h1>
-      {posts.map((post) => <div
-        key={post.id}
-        className="post-teaser"
-      >
-        <h2 className="text-2xl text-red-500 ml-20">
-          <Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link></h2>
-        <div><span>{post.published}</span></div>
-      </div>)}
+    <>
+      <title>今月公開予定の作品一覧</title>
+      <main className="h-full bg-green-100 min-w-min" />
+      <Header />
+      <div className="text-blue-800 text-4xl mb-20 ml-20">今月の公開作品一覧</div>
+      {
+        posts.map((post) => <div
+          key={post.id}
+          className="post-teaser"
+        >
+          <h2 className="text-2xl text-red-500 ml-40 mt-10">
+            <Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link></h2>
+          <div><span>{post.published}</span></div>
+        </div>)
+      }
       <Pager
         page={page} total={total} perPage={perPage}
         href="/archive/[page]"
         asCallback={(page) => `/archive/${page}`}
       />
-      <style jsx>{`
-        .post-teaser {
-          margin-bottom: 2em;
-        }
-        .post-teaser h2 a {
-          text-decoration: none;
-        }
-      `}</style>
-    </Layout>
+      <Footer />
+    </>
   )
 }
 /**

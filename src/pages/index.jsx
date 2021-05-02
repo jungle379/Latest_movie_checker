@@ -4,14 +4,14 @@ import { Header } from '../components/header'
 
 export default function Home() {
   return (
-    <div className="h-80">
+    <div className="">
       <title>トップページ</title>
       <link rel="icon" href="/favicon.ico" />
       <main className="h-full bg-green-100 min-w-min">
         <Header></Header>
         <div className="mt-36 flex h-10">
           <Link href="/newest/latest">
-            <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">最新の映画</h1>
+            <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">今週公開の映画</h1>
           </Link>
           <Link href="/archive/[page]" as="/archive/1">
             <h3 className="bg-center text-2xl text-blue-300 justify-between ml-40 mr-10">今月公開予定の映画</h3>
