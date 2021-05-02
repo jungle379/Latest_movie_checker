@@ -10,9 +10,8 @@ const COUNT_PER_PAGE = 10
 export default function Archive(props) {
   const { posts, page, total, perPage } = props
   return (
-    <>
+    <div className="h-full bg-green-100 min-w-min">
       <title>今月公開予定の作品一覧</title>
-      <main className="h-full bg-green-100 min-w-min" />
       <Header />
       <div className="text-blue-800 text-4xl mb-20 ml-20">今月の公開作品一覧</div>
       {
@@ -31,7 +30,7 @@ export default function Archive(props) {
         asCallback={(page) => `/archive/${page}`}
       />
       <Footer />
-    </>
+    </div>
   )
 }
 /**
