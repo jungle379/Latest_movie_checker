@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Footer } from '../components/footer'
 import { Header } from '../components/header'
 
+
 export default function Home() {
   return (
     <div className="">
@@ -11,10 +12,10 @@ export default function Home() {
         <Header></Header>
         <div className="mt-36 flex h-10">
           <Link href="/newest/latest">
-            <h1 className="bg-center text-2xl text-blue-300 justify-between ml-20 mr-10">今週公開の映画</h1>
+            <h1 className="bg-center text-2xl text-blue-600 justify-between ml-20 mr-10">今週公開の映画</h1>
           </Link>
           <Link href="/archive/[page]" as="/archive/1">
-            <h3 className="bg-center text-2xl text-blue-300 justify-between ml-40 mr-10">今月公開予定の映画</h3>
+            <h3 className="bg-center text-2xl text-blue-600 justify-between ml-40 mr-10">今月公開予定の映画</h3>
           </Link>
         </div>
         <div className="mt-60">
