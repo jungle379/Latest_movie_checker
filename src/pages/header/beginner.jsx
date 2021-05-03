@@ -21,7 +21,7 @@ export default function Beginner() {
           <ul className="mt-5 ml-40">・各映画詳細ページに外部リンクを設けています　→公式サイトの公開劇場一覧ページに遷移します。上映劇場は外部サイトから確認してください。</ul>
           <ul className="mt-5 ml-40">・下部に問い合わせフォームへのボタンがあります。不明点は気兼ねなくお尋ねください。</ul>
         </div>
-        <div className="hover:bg-pink-200 text-blue-500 mt-20 ml-80 underline w-40">
+        <div className="hover:bg-pink-200 hover:opacity-75 text-blue-500 mt-20 ml-80 underline w-40">
           <button onClick={clickButton}>問い合わせフォームへ</button>
         </div>
         <Footer></Footer>

@@ -8,7 +8,7 @@ export default function Home() {
     <div className="">
       <title>トップページ</title>
       <link rel="icon" href="/favicon.ico" />
-      <main className="h-full bg-green-100 min-w-min">
+      <main className="h-full sm:bg-green-100">
         <Header></Header>
         <div className="mt-36 flex h-10">
           <Link href="/newest/latest">
@@ -24,8 +24,8 @@ export default function Home() {
           </Link>
         </div>
         <h5 className="text-0.5xl text-yellow-800 mt-40 ml-20">updated in 2021/04/15</h5>
+        <Footer></Footer>
       </main>
-      <Footer></Footer>
     </div>
   )
 }
