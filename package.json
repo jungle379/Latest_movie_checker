@@ -17,6 +17,7 @@
     "date-fns": "^2.20.0",
     "gray-matter": "^4.0.2",
     "next": "10.0.9",
+    "nextjs-breadcrumbs": "^0.9.9",
     "postcss": "^7.0.35",
     "react": "17.0.1",
     "react-dom": "17.0.1",
