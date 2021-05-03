@@ -5,7 +5,7 @@ export default function FirstPost() {
   return (
     <>
       <title>映画館検索</title>
-      <main className="h-screen bg-green-100">
+      <main className="h-screen sm:bg-green-100">
         <Header></Header>
         <div className="text-5xl pb-5 text-red-700 ml-20">近場の映画館検索</div>
         <div className="ml-40" id="map">
