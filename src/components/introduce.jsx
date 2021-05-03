@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Introduce() {
   return (
-    <div className="pt-10 bg-green-100">
+    <div className="pt-10 sm:bg-green-100">
       <Link href="">
         <div className="m-3 ml-20 text-black text-2xl">経歴
        <h1 className="text-base">2020/2よりプログラミング学習を開始し、日夜モダンな言語を中心に勉強中。</h1>

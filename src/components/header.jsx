@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Header() {
   return (
-    <div className="sm:container pl-10 font-thin underline mb-20 flex">
+    <div className="sm:container pl-10 font-thin underline mb-20 flex ">
       <Link href="/">
         <a className="text-6xl text-red-400">Latest Movie Checker</a>
       </Link>

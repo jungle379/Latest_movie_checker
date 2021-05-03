@@ -10,7 +10,7 @@ export default function Beginner() {
   return (
     <>
       <title>初めての方へ</title>
-      <main className="h-screen bg-green-100">
+      <main className="h-screen sm:bg-green-100">
         <Header></Header>
         <div className="text-indigo-800 text-4xl ml-20">このサイトの使い方</div>
         <div>
