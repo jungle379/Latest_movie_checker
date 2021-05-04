@@ -1,25 +1,45 @@
-import { Footer } from '../../components/footer'
-import { Header } from '../../components/header'
+import React, { Component } from 'react';
+import { GoogleApiWrapper, Map, Marker } from 'google-maps-react';
 
-export default function FirstPost() {
-  return (
-    <>
-      <title>映画館検索</title>
-      <main className="h-screen sm:bg-green-100">
-        <Header></Header>
-        <div className="sm:text-4xl pb-5 text-red-700 ml-20">近場の映画館検索</div>
-        <div className="ml-40" id="map">
-          ・地図API未取得の為、実装できていません。
-    </div>
-      </main>
-      <Footer></Footer>
-    </>
-  )
+class GoogleMap extends Component {
+  state = {
+    lat: null,
+    lng: null
+  }
+
+  componentDidMount() {
+    navigator.geolocation.getCurrentPosition((position) => {
+      this.setState({
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      });
+      console.log(position.coords);
+    },
+      (err) => {
+        console.log(err);
+      })
+  }
+
+  render() {
+    return (
+      <>
+        <title>近場の映画館検索</title>
+        <Map
+          google={this.props.google}
+          zoom={14}
+          center={{ lat: this.state.lat, lng: this.state.lng }}
+          initialCenter={{ lat: this.state.lat, lng: this.state.lng }}
+        >
+          <Marker
+            title={"現在地"}
+            position={{ lat: this.state.lat, lng: this.state.lng }}
+          />
+        </Map>
+      </>
+    );
+  }
 }
 
-// const map;
-// function initMap() {
-//   map = new google.maps.Map(document.getElementById('map'),{
-
-//   });
-// }
+export default GoogleApiWrapper({
+  apiKey: ("AIzaSyCJbcRwxeq4eE54GkSm3rtr-SHMESiRjl8")
+})(GoogleMap);

@@ -13,13 +13,13 @@ export default function Archive(props) {
     <div className="h-full sm:bg-green-100 min-w-min">
       <title>今月公開予定の作品一覧</title>
       <Header />
-      <div className="text-blue-800 sm:text-4xl mb-20 ml-20">今月の公開作品一覧</div>
+      <div className="text-blue-800 sm:text-4xl mb-20 ml-10 sm:ml-20">今月の公開作品一覧</div>
       {
         posts.map((post) => <div
           key={post.id}
           className="post-teaser"
         >
-          <h2 className="sm:text-2xl text-red-500 ml-40 mt-10">
+          <h2 className="sm:text-2xl text-red-500 ml-10 sm:ml-40 mb-10">
             <Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link></h2>
           <div><span>{post.published}</span></div>
         </div>)
