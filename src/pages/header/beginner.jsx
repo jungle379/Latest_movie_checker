@@ -24,8 +24,8 @@ export default function Beginner() {
         <div className="hover:bg-pink-200 hover:opacity-75 text-blue-500 mt-20 ml-80 underline w-40">
           <button onClick={clickButton}>問い合わせフォームへ</button>
         </div>
-        <Footer></Footer>
       </main>
+      <Footer></Footer>
     </>
   )
 }
