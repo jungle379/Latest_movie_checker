@@ -6,7 +6,6 @@ class GoogleMap extends Component {
     lat: null,
     lng: null
   }
-
   componentDidMount() {
     navigator.geolocation.getCurrentPosition((position) => {
       this.setState({
@@ -41,5 +40,5 @@ class GoogleMap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: ("AIzaSyCJbcRwxeq4eE54GkSm3rtr-SHMESiRjl8")
+  apiKey: ("AIzaSyACPGdtrC9ckYHvuFgpA5ww_Vsi8oSvTpU")
 })(GoogleMap);
