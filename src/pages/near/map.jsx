@@ -31,7 +31,10 @@ class GoogleMap extends Component {
         >
           <Marker
             title={"現在地"}
-            position={{ lat: this.state.lat, lng: this.state.lng }}
+            position={{ lat: this.state.lat, lng: this.state.lng }} />
+          <Marker
+            title={"TOHOシネマズ伊丹"}
+            position={{ lat: 34.781692, lng: 135.4235953 }}
           />
         </Map>
       </>
@@ -40,5 +43,5 @@ class GoogleMap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: ("AIzaSyACPGdtrC9ckYHvuFgpA5ww_Vsi8oSvTpU")
+  apiKey: ("AIzaSyCYVUp5jiIRxE8sB5x0YmrGzFnBP22gMGI")
 })(GoogleMap);
