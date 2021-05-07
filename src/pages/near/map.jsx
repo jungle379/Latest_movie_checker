@@ -36,6 +36,26 @@ class GoogleMap extends Component {
             title={"TOHOシネマズ伊丹"}
             position={{ lat: 34.781692, lng: 135.4235953 }}
           />
+          <Marker
+            title={"TOHOシネマズ西宮"}
+            position={{ lat: 34.743932, lng: 135.359945 }}
+          />
+          <Marker
+            title={"TOHOシネマズ梅田"}
+            position={{ lat: 34.421197, lng: 135.30026 }}
+          />
+          <Marker
+            title={"梅田ブルク7"}
+            position={{ lat: 34.700595, lng: 135.498535 }}
+          />
+          <Marker
+            title={"TOHOシネマズなんば"}
+            position={{ lat: 34.395604, lng: 135.30373 }}
+          />
+          <Marker
+            title={"塚口サンサンタウン劇場"}
+            position={{ lat: 34.752261, lng: 135.416412 }}
+          />
         </Map>
       </>
     );
