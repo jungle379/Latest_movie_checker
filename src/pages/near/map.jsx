@@ -42,7 +42,7 @@ class GoogleMap extends Component {
           />
           <Marker
             title={"TOHOシネマズ梅田"}
-            position={{ lat: 34.421197, lng: 135.30026 }}
+            position={{ lat: 34.703324, lng: 135.5007 }}
           />
           <Marker
             title={"梅田ブルク7"}
@@ -50,7 +50,7 @@ class GoogleMap extends Component {
           />
           <Marker
             title={"TOHOシネマズなんば"}
-            position={{ lat: 34.395604, lng: 135.30373 }}
+            position={{ lat: 34.665497, lng: 135.500991 }}
           />
           <Marker
             title={"塚口サンサンタウン劇場"}
