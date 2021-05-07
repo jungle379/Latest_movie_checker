@@ -15,8 +15,8 @@ export default function Latest() {
           <h3 className="sm:text-2xl mt-20 ml-10 sm:ml-40 text-indigo-500">
             <Link href="http://yakusokunosora.com">・約束の宇宙(公開中)</Link></h3>
         </div>
+        <Footer></Footer>
       </main>
-      <Footer></Footer>
     </>
   )
 }

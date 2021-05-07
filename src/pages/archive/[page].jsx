@@ -10,7 +10,7 @@ const COUNT_PER_PAGE = 10
 export default function Archive(props) {
   const { posts, page, total, perPage } = props
   return (
-    <div className="h-full sm:bg-green-100 min-w-min">
+    <div className="h-screen sm:bg-green-100 min-w-min">
       <title>今月公開予定の作品一覧</title>
       <Header />
       <div className="text-blue-800 sm:text-4xl mb-20 ml-10 sm:ml-20">今月の公開作品一覧</div>
