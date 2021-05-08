@@ -13,8 +13,8 @@ export default function Creater() {
       <main className="h-screen sm:bg-green-100">
         <Header></Header>
         <div className="text-3xl ml-20 text-red-500">作成者について
-    <h1 className="text-4xl mt-10 ml-10 text-black">森野　弘規</h1>
-          <Introduce></Introduce>
+    <h1 className="text-2xl mt-10 ml-10 text-black">森野　弘規</h1>
+          <Introduce />
         </div>
         <div className="text-3xl ml-20 mt-10 text-red-500">SNSリンク
     </div>
