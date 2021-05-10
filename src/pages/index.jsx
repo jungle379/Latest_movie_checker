@@ -10,7 +10,7 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
       <main className="h-screen sm:bg-green-100">
         <Header></Header>
-        <div className="mt-36 flex h-16">
+        <div className="mt-36 flex h-20 bg-gray-200">
           <Link href="/newest/latest">
             <h1 className="bg-center sm:text-2xl pt-5 hover:text-red-500 justify-between ml-20 mr-10 border-solid sm:border-4 sm:border-gray-400">今週公開の映画</h1>
           </Link>
