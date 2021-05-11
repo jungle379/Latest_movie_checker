@@ -12,7 +12,7 @@ export default function Beginner() {
       <title>初めての方へ</title>
       <main className="h-screen sm:bg-green-100">
         <Header></Header>
-        <div className="text-indigo-800 text-4xl ml-20">このサイトの使い方</div>
+        <div className="text-indigo-800 text-4xl mt-20 ml-20">このサイトの使い方</div>
         <div>
           <h1 className="text-1xl ml-40 mt-5">各ページについて</h1>
           <ul className="mt-5 ml-40">・今週公開の映画　→今週末公開予定の映画一覧ページに遷移します。一覧ページの各リンクをクリックすると公式ページへ遷移します</ul>
