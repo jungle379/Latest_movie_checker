@@ -17,8 +17,6 @@ export default function Home() {
           <Link href="/archive/[page]" as="/archive/1">
             <h2 className="bg-center bg-gray-200 sm:text-2xl pt-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">今月公開予定の映画</h2>
           </Link>
-          {/* </div>
-        <div className="sm:mt-40"> */}
           <Link href="/near/map">
             <h3 className="bg-center bg-gray-200 sm:text-2xl pt-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">現在地から近くの映画館を探す</h3>
           </Link>
@@ -26,6 +24,12 @@ export default function Home() {
         <div>
           <h4 className="text-0.5xl text-yellow-800 float-right mt-40 sm:mt-0.5 mr-20">updated in 2021/04/15</h4>
         </div>
+        <div>
+          <h5 className="text-2xl">最新情報</h5>
+        </div>
+        {/* <div>
+          <img className="" src="/images/640.jpg" />
+        </div> */}
         <Footer></Footer>
       </main>
     </>
