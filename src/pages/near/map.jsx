@@ -4,7 +4,10 @@ import { GoogleApiWrapper, Map, Marker } from 'google-maps-react';
 class GoogleMap extends Component {
   state = {
     lat: null,
-    lng: null
+    lng: null,
+    showingInfoWindow: false,
+    activeMarker: {},
+    selectedPlace: {},
   }
   componentDidMount() {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -18,6 +21,12 @@ class GoogleMap extends Component {
         console.log(err);
       })
   }
+  // onMarkerClick = (props, marker) =>
+  //   this.setState({
+  //     selectedPlace: props,
+  //     activeMarker: marker,
+  //     showingInfoWindow: true
+  //   });
 
   render() {
     return (
@@ -28,10 +37,14 @@ class GoogleMap extends Component {
           zoom={14}
           center={{ lat: this.state.lat, lng: this.state.lng }}
           initialCenter={{ lat: this.state.lat, lng: this.state.lng }}
+        // onClick={this.onMarkerClick}
         >
           <Marker
             title={"現在地"}
-            position={{ lat: this.state.lat, lng: this.state.lng }} />
+            position={{ lat: this.state.lat, lng: this.state.lng }}
+          // onClick={this.onMarkerClick}
+          // name={'current location'}
+          />
           <Marker
             title={"TOHOシネマズ伊丹"}
             position={{ lat: 34.781692, lng: 135.4235953 }}
