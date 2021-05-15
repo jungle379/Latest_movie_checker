@@ -29,5 +29,8 @@
 - https://vercel.com/jungle379/latest-movie-checker
 
 ## サイトイメージ
-#トップページ
+ -トップページ
 <img src="/public/images/src1.jpg">
+
+ -アーカイブページ
+<img src="/public/images/src2.jpg">
