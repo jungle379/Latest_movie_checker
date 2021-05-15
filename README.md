@@ -29,4 +29,4 @@
 - https://vercel.com/jungle379/latest-movie-checker
 
 ## サイトイメージ
-<img src="/images/src1.jpg" />
+<img src="/images/src1.jpg">
