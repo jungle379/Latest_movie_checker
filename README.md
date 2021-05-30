@@ -22,7 +22,7 @@
 　Google mapのAPI取得により、現在地から直近の映画館を検索できるようにしてあるページ
  
 
-## URL
+## GithubのURL
 - https://github.com/jungle379/Latest_movie_chacker
 
 ## デプロイ先URL
