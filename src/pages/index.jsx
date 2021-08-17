@@ -22,16 +22,19 @@ export default function Home() {
         </div>
         <div className="flex justify-around mt-20 h-80 border-dashed border-8 border-red-400 mr-40 ml-40">
           <div className="text-2xl mt-10">最新情報
-          <h4 className="mt-10 text-xl w-80 text-blue-500 underline">
-              <Link href="/newest/news1">・4月の情報を更新しました。</Link>
+            <h4 className="mt-10 text-xl w-80 text-blue-500 underline">
+              <Link href="/newest/news1">・8月の情報を更新しました。</Link>
+            </h4>
+            <h4 className="mt-10 text-xl w-80 text-blue-500 underline">
+              <Link href="/newest/news1">・7月の情報を更新しました。</Link>
             </h4>
           </div>
           <div className="text-2xl mt-10 w-80">メンテ情報
-          <h5 className="text-xl mt-10">・特にありません</h5>
+            <h5 className="text-xl mt-10">・特にありません</h5>
           </div>
         </div>
         <div>
-          <h6 className="text-0.5xl text-yellow-800 float-right mt-40 sm:mt-0.5 mr-40 border-red-600 ">updated in 2021/04/15</h6>
+          <h6 className="text-0.5xl text-yellow-800 float-right mt-40 sm:mt-0.5 mr-40 border-red-600 ">updated in 2021/08/15</h6>
         </div>
         <Footer></Footer>
       </main>
