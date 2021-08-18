@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { GoogleApiWrapper, Map, Marker } from 'google-maps-react';
+import Head from 'next/head';
 
 class GoogleMap extends Component {
   state = {
@@ -31,7 +32,8 @@ class GoogleMap extends Component {
   render() {
     return (
       <>
-        <title>近場の映画館検索</title>
+        <Head>
+          <title>近場の映画館検索</title></Head>
         <Map
           google={this.props.google}
           zoom={14}
