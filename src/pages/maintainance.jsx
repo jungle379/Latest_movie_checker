@@ -7,10 +7,12 @@ import { Header } from '../components/header'
 const ITEMS = [
   {
     href: "/",
-    title: ""
+    title: "8月メンテナンス情報",
+    day: "(8/15)"
   }, {
     href: "/",
-    title: ""
+    title: "7月メンテナンス情報",
+    day: "(7/14)"
   }
 ];
 
@@ -22,13 +24,13 @@ const Maintain = () => {
     </Head>
     <div className="h-screen sm:bg-green-100">
       <Header />
-      <div className="">メンテナンス情報</div>
-      <h1 className="">実装履歴</h1>
+      <div className="text-4xl">メンテナンス情報</div>
+      <h1 className="text-2xl">実装履歴</h1>
 
       {ITEMS.map(item => {
         return (
-          <div><Link href={item.href}>
-            <li>{item.title}</li>
+          <div className="text-2xl"><Link href={item.href}>
+            <li>{item.title}{item.day}</li>
           </Link></div>
         )
       })}
