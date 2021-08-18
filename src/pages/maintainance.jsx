@@ -25,11 +25,11 @@ const Maintain = () => {
     <div className="h-screen sm:bg-green-100">
       <Header />
       <div className="text-4xl">メンテナンス情報</div>
-      <h1 className="text-2xl">実装履歴</h1>
+      <h1 className="text-2xl pt-10 pl-5">履歴</h1>
 
       {ITEMS.map(item => {
         return (
-          <div className="text-2xl"><Link href={item.href}>
+          <div className="text-2xl text-blue-500 pt-10 pl-10"><Link href={item.href}>
             <li>{item.title}{item.day}</li>
           </Link></div>
         )
