@@ -34,3 +34,41 @@
 
  -アーカイブページ
 <img src="/public/images/src2.jpg">
+
+
+import Link from "next/link";
+import Head from "next/head"
+
+const ITEMS = [
+  {
+    href: "/",
+    title: ""
+},{
+    href: "/",
+    title: ""
+}
+];
+
+const *** = () => {
+
+return <>
+<Head>
+<title>***</title>
+</Head>
+<Header />
+<div className="">*</div>
+ <h1 className="">**</h1>
+
+  {ITEMS.map(item => {
+    return (
+      <div><Link href={item.href}>
+        <li>{item.title}</li>
+      </Link></div>
+    )
+  })}
+<Footer />
+
+</>
+};
+
+export default ***;
