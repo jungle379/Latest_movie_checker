@@ -34,3 +34,45 @@
 
  -アーカイブページ
 <img src="/public/images/src2.jpg">
+
+import Head from "next/head";
+import Link from "next/link";
+import { Header } from "../src/components/header";
+import { Footer } from "../src/components/footer"
+
+const ITEMS = [
+{
+ href: "/",
+ title: "1つ目です"
+},{
+ href: "/",
+ title: "2つ目です"
+}
+];
+
+const News = () => {
+
+<Head>
+<title>ニュース</title>
+</Head>
+<div className="h-screen sm:bg-green-100">
+<Header />
+<div className="text-4xl">トピックス</div>
+
+//タブ付けして複数見れるようにする。(調べて実装)
+
+<div>
+  {ITEMS.map(item => {
+        return (
+          <div className="text-2xl text-blue-500 pt-10 pl-10">
+	　<Link href={item.href}>
+            <li>{item.title}</li>
+          </Link></div>
+        )
+      })}
+</div>
+<Footer />
+}
+
+export default News;
+
