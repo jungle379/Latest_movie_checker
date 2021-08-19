@@ -28,6 +28,9 @@ export function Main() {
         <div className="text-4xl mt-10 w-80 text-blue-500 underline">
           <Link href="/maintainance">・メンテ情報</Link>
         </div>
+        <div className="text-4xl mt-10 w-80 text-blue-500 underline">
+          <Link href="/news">・ニュース一覧</Link>
+        </div>
       </div>
       <div>
         <h6 className="text-0.5xl text-yellow-800 float-right mt-40 sm:mt-0.5 mr-40 border-red-600 ">updated in 2021/08/15</h6>
