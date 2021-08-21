@@ -18,7 +18,7 @@ const Inquiry = () => {
       <div className="text-2xl mt-10 ml-10 text-pink-400">入力フォーム</div>
       <div className="text-2xl mt-10 ml-40 mb-5 text-red-500">※注意点※
         <li className="text-red-400">必須項目は必ず入力してください</li>
-        <li className="text-red-400">入力後、確認ボタンをクリックしてください</li>
+        <li className="text-red-400">入力後は「入力内容の送信」ボタンをクリックしてください</li>
       </div>
 
       {/* コピペした内容 */}
@@ -37,9 +37,9 @@ const Inquiry = () => {
             inquiryType: Yup.string()
               .required('お問い合わせ種別を選択してください'),
             service: Yup.array()
-              .min(1, '検討中のサービスを1つ以上選択してください'),
+              .min(1, 'お問い合わせ内容を選択してください'),
             name: Yup.string()
-              .required('ご担当者名は必須です'),
+              .required('氏名は必須です'),
             company: Yup.string()
               .required('御社名は必須です'),
             email: Yup.string()
@@ -73,8 +73,8 @@ const Inquiry = () => {
                   </legend>
                   <div>
                     <ul role="radiogroup" aria-labelledby="labelInquiryType">
-                      <li><Field name="inquiryType" id="inquiryType01" type="radio" value="見積もり依頼" /><label htmlFor="inquiryType01">見積もり依頼</label></li>
-                      <li><Field name="inquiryType" id="inquiryType02" type="radio" value="採用に関するお問い合わせ" /><label htmlFor="inquiryType02">試用版申込み</label></li>
+                      <li><Field name="inquiryType" id="inquiryType01" type="radio" value="当サイトに関する問い合わせ" /><label htmlFor="inquiryType01">当サイトに関するお問い合わせ</label></li>
+                      <li><Field name="inquiryType" id="inquiryType02" type="radio" value="サイト管理者へのお問い合わせ" /><label htmlFor="inquiryType02">サイト管理者へのお問い合わせ</label></li>
                       <li><Field name="inquiryType" id="inquiryType03" type="radio" value="その他" /><label htmlFor="inquiryType03">その他</label></li>
                     </ul>
                   </div>
@@ -83,7 +83,7 @@ const Inquiry = () => {
               <div className="mt-5">
                 <fieldset aria-required="true" aria-invalid={errors.service ? 'true' : 'false'}>
                   <legend id="labeService">
-                    検討中のサービス
+                    お問い合わせ内容
                     <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="service">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
@@ -91,9 +91,9 @@ const Inquiry = () => {
                   </legend>
                   <div>
                     <ul role="group" aria-labelledby="labeService">
-                      <li><Field name="service" id="service01" type="checkbox" value="サービスA" /><label htmlFor="service01">サービスA</label></li>
-                      <li><Field name="service" id="service02" type="checkbox" value="サービスB" /><label htmlFor="service02">サービスB</label></li>
-                      <li><Field name="service" id="service03" type="checkbox" value="サービスC" /><label htmlFor="service03">サービスC</label></li>
+                      <li><Field name="service" id="service01" type="checkbox" value="映画情報" /><label htmlFor="service01">映画情報</label></li>
+                      <li><Field name="service" id="service02" type="checkbox" value="サイトの不具合" /><label htmlFor="service02">サイトの不具合</label></li>
+                      <li><Field name="service" id="service03" type="checkbox" value="その他ご要望" /><label htmlFor="service03">その他ご要望</label></li>
                     </ul>
                   </div>
                 </fieldset>
@@ -122,7 +122,7 @@ const Inquiry = () => {
               <div>
                 <div className="mt-5">
                   <label htmlFor="name">
-                    ご担当者名
+                    氏名
                     <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="name">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
@@ -134,7 +134,7 @@ const Inquiry = () => {
                     name="name"
                     id="name"
                     type="text"
-                    placeholder="ご担当者様のお名前をご記入ください"
+                    placeholder="お名前をご記入ください"
                     aria-required="true"
                     aria-invalid={errors.name ? 'true' : 'false'}
                   />
@@ -163,7 +163,7 @@ const Inquiry = () => {
               </div>
               <div>
                 <div>
-                  <label htmlFor="address">会社住所</label>
+                  <label htmlFor="address">お住まい</label>
                 </div>
                 <div>
                   <Field
