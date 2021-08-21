@@ -31,7 +31,8 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "sass": "^1.32.8",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0"
