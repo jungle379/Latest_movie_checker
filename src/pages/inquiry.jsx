@@ -15,14 +15,14 @@ const Inquiry = () => {
     </Head>
     <div className="h-screen sm:bg-green-100">
       <Header />
-      <div className="text-4xl">入力フォーム</div>
-      <div className="text-2xl">※注意点※
+      <div className="text-2xl mt-10 ml-10 text-pink-400">入力フォーム</div>
+      <div className="text-2xl mt-10 ml-40 mb-5 text-red-500">※注意点※
         <li className="text-red-400">必須項目は必ず入力してください</li>
         <li className="text-red-400">入力後、確認ボタンをクリックしてください</li>
       </div>
 
       {/* コピペした内容 */}
-      <div>
+      <div className="ml-40">
         <Formik
           initialValues={{
             inquiryType: '',
@@ -66,7 +66,7 @@ const Inquiry = () => {
                 <fieldset aria-required="true" aria-invalid={errors.inquiryType ? 'true' : 'false'}>
                   <legend id="labelInquiryType">
                     お問い合わせ種別
-                    <span>必須</span>
+                    <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="inquiryType">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
                     </ErrorMessage>
@@ -80,11 +80,11 @@ const Inquiry = () => {
                   </div>
                 </fieldset>
               </div>
-              <div>
+              <div className="mt-5">
                 <fieldset aria-required="true" aria-invalid={errors.service ? 'true' : 'false'}>
                   <legend id="labeService">
                     検討中のサービス
-                    <span>必須</span>
+                    <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="service">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
                     </ErrorMessage>
@@ -99,10 +99,10 @@ const Inquiry = () => {
                 </fieldset>
               </div>
               <div>
-                <div>
+                <div className="mt-5">
                   <label htmlFor="company">
                     御社名
-                    <span>必須</span>
+                    <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="company">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
                     </ErrorMessage>
@@ -120,10 +120,10 @@ const Inquiry = () => {
                 </div>
               </div>
               <div>
-                <div>
+                <div className="mt-5">
                   <label htmlFor="name">
                     ご担当者名
-                    <span>必須</span>
+                    <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="name">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
                     </ErrorMessage>
@@ -141,10 +141,10 @@ const Inquiry = () => {
                 </div>
               </div>
               <div>
-                <div>
+                <div className="mt-5">
                   <label htmlFor="email">
                     メールアドレス
-                    <span>必須</span>
+                    <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="email">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
                     </ErrorMessage>
@@ -175,10 +175,10 @@ const Inquiry = () => {
                 </div>
               </div>
               <div>
-                <div>
+                <div className="mt-5">
                   <label htmlFor="content">
                     お問い合わせ内容
-                    <span>必須</span>
+                    <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="content">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
                     </ErrorMessage>
@@ -197,6 +197,7 @@ const Inquiry = () => {
               </div>
               <div>
                 <button
+                  className="text-2xl mt-10 hover:bg-pink-200 hover:opacity-75 "
                   disabled={isSubmitting}
                   type="submit"
                   id="submit"
