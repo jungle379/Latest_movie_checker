@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-// import * as Yup from 'yup';
+import * as Yup from 'yup';
 
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
@@ -33,21 +33,21 @@ const Inquiry = () => {
             address: '',
             content: '',
           }}
-          // validationSchema={Yup.object({
-          //   inquiryType: Yup.string()
-          //     .required('お問い合わせ種別を選択してください'),
-          //   service: Yup.array()
-          //     .min(1, '検討中のサービスを1つ以上選択してください'),
-          //   name: Yup.string()
-          //     .required('ご担当者名は必須です'),
-          //   company: Yup.string()
-          //     .required('御社名は必須です'),
-          //   email: Yup.string()
-          //     .email('メールアドレスの形式に誤りがあります')
-          //     .required('メールアドレスは必須です'),
-          //   content: Yup.string()
-          //     .required('お問い合わせ内容は必須です'),
-          // })}
+          validationSchema={Yup.object({
+            inquiryType: Yup.string()
+              .required('お問い合わせ種別を選択してください'),
+            service: Yup.array()
+              .min(1, '検討中のサービスを1つ以上選択してください'),
+            name: Yup.string()
+              .required('ご担当者名は必須です'),
+            company: Yup.string()
+              .required('御社名は必須です'),
+            email: Yup.string()
+              .email('メールアドレスの形式に誤りがあります')
+              .required('メールアドレスは必須です'),
+            content: Yup.string()
+              .required('お問い合わせ内容は必須です'),
+          })}
           onSubmit={(values, { setSubmitting, resetForm }) => {
             // 実際にはここにデータ送信処理など
             alert(JSON.stringify(values, null, 2))
@@ -59,7 +59,7 @@ const Inquiry = () => {
             <Form>
               {!isValid && (
                 <Head>
-                  <title>{Object.keys(errors).length}箇所の入力エラーがあります - {title}</title>
+                  <title>{Object.keys(errors).length}箇所の入力エラーがあります</title>
                 </Head>
               )}
               <div>
@@ -209,8 +209,6 @@ const Inquiry = () => {
         </Formik>
       </div>
     </div>
-
-
     <Footer />
   </>
 };
