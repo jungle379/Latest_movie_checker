@@ -26,7 +26,7 @@ export default function Beginner() {
         <div className="flex">
           <h1 className="text-2xl ml-40 mt-10 text-blue-500">
             <Link href="/kiyaku">・規約へ</Link></h1>
-          <h2 className="text-2xl hover:bg-pink-200 hover:opacity-75 text-blue-500 ml-80 mt-10 w-80">
+          <h2 className="text-2xl text-blue-500 ml-80 mt-10 w-80">
             {/* <button onClick={clickButton}>・問い合わせフォームへ</button> */}
             <Link href="../inquiry">・問い合わせフォームへ</Link>
           </h2>
