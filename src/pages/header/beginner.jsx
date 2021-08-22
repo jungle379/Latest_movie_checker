@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
@@ -10,7 +11,9 @@ import { Header } from '../../components/header'
 export default function Beginner() {
   return (
     <>
-      <title>初めての方へ</title>
+      <Head>
+        <title>初めての方へ</title>
+      </Head>
       <div className="h-screen sm:bg-green-100">
         <Header></Header>
         <div className="text-indigo-800 text-4xl mt-20 ml-20">このサイトの使い方</div>
