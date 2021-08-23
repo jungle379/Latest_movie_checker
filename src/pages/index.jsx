@@ -9,7 +9,7 @@ export default function Home() {
         <title>トップページ</title>
       </Head>
       <link rel="icon" href="/favicon.ico" />
-      <div className="h-screen sm:bg-green-100">
+      <div className="h-screen sm:bg-green-100 bg-green-300">
         <Main />
       </div>
       <Footer />
