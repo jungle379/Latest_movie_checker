@@ -12,6 +12,9 @@ export function Header() {
       <Link href="/header/creater">
         <h2 className="flex-auto text-0.5xl ml-10 m-5 w-60 text-pink-300">作成者について</h2>
       </Link>
+      <Link href="header/theathers">
+        <h2 className="flex-auto text-0.5xl ml-10 m-5 w-60 text-pink-300">全国のシネコン一覧</h2>
+      </Link>
     </div>
   );
 }
