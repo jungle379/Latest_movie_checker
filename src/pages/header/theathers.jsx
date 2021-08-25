@@ -5,7 +5,7 @@ import { Footer } from "../../components/footer";
 
 const ITEMS = [
   {
-    href: "/",
+    href: "https://www.tohotheater.jp/index.html",
     title: "TOHOシネマズ"
   }, {
     href: "/",

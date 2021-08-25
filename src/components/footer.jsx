@@ -1,4 +1,4 @@
-import Link from "ext/link"
+import Link from "next/link"
 
 export function Footer() {
   return (
