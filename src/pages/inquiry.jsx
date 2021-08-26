@@ -13,15 +13,13 @@ const Inquiry = () => {
     <Head>
       <title>入力フォーム</title>
     </Head>
-    <div className="h-screen sm:bg-green-100">
+    <div className="sm:bg-green-100 bg-green-300">
       <Header />
       <div className="text-2xl mt-10 ml-10 text-pink-400">入力フォーム</div>
       <div className="text-2xl mt-10 ml-40 mb-5 text-red-500">※注意点※
         <li className="text-red-400">必須項目は必ず入力してください</li>
         <li className="text-red-400">入力後は「入力内容の送信」ボタンをクリックしてください</li>
       </div>
-
-      {/* コピペした内容 */}
       <div className="ml-40">
         <Formik
           initialValues={{
@@ -101,7 +99,7 @@ const Inquiry = () => {
               <div>
                 <div className="mt-5">
                   <label htmlFor="company">
-                    御社名
+                    会社名
                     <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="company">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
