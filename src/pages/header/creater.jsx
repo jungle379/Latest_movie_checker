@@ -13,7 +13,7 @@ export default function Creater() {
       <Head>
         <title>作成者情報</title>
       </Head>
-      <main className="h-screen sm:bg-green-100">
+      <main className="h-screen sm:bg-green-100 bg-green-300">
         <Header />
         <div className="text-3xl ml-20 mt-20 text-red-500">作成者について
           <h1 className="text-2xl mt-10 ml-10 text-black">森野　弘規</h1>
