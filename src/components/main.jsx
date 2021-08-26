@@ -4,7 +4,7 @@ import { Header } from "./header";
 export function Main() {
   return (
     <div>
-      <Header></Header>
+      <Header />
       <div className="mt-20 flex h-20 justify-around">
         <Link href="/newest/latest">
           <h1 className="bg-center bg-gray-200 sm:text-2xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">今週公開の映画</h1>
