@@ -195,7 +195,7 @@ const Inquiry = () => {
               </div>
               <div>
                 <button
-                  className="text-2xl mt-10 hover:bg-pink-200 hover:opacity-75 "
+                  className="text-2xl mt-10 hover:bg-pink-200 hover:opacity-75"
                   disabled={isSubmitting}
                   type="submit"
                   id="submit"
