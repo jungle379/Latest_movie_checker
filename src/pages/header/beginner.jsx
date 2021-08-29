@@ -27,9 +27,9 @@ export default function Beginner() {
           <ul className="mt-5 ml-40">・下部に問い合わせフォームへのボタンがあります。不明点は気兼ねなくお尋ねください。</ul>
         </div>
         <div className="flex">
-          <h1 className="text-2xl ml-40 mt-10 text-blue-500">
+          <h1 className="ml-40 mt-10 text-blue-500 hover:text-red-500">
             <Link href="/kiyaku">・規約へ</Link></h1>
-          <h2 className="text-2xl text-blue-500 ml-80 mt-10 w-80">
+          <h2 className="text-blue-500 ml-80 mt-10 w-80 hover:text-red-500">
             {/* <button onClick={clickButton}>・問い合わせフォームへ</button> */}
             <Link href="../inquiry">・問い合わせフォームへ</Link>
           </h2>
