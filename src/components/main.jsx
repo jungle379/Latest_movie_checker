@@ -17,7 +17,7 @@ export function Main() {
         </Link>
       </div>
       <div className="flex justify-around mt-20 h-80 sm:border-dashed sm:border-8 sm:border-red-400 mr-40 ml-40">
-        <div className="sm:text-4xl mt-10">最新情報
+        <div className="sm:text-2xl mt-10">最新情報
           <h4 className="mt-10 w-80 sm:text-xl text-blue-500 underline">
             <Link href="/newest/news1">・8月の情報を更新しました。</Link>
           </h4>
@@ -31,7 +31,7 @@ export function Main() {
         <div className="sm:text-2xl mt-10 sm:w-80 text-blue-500 underline">
           <Link href="/maintainance">・メンテナンス情報</Link>
         </div>
-        <div className="sm:text-2xl mt-10 sm:w-80 text-blue-500 underline">
+        <div className="sm:text-2xl ml-10 mt-10 sm:w-80 text-blue-500 underline">
           <Link href="/news">・ニュース一覧</Link>
         </div>
       </div>
