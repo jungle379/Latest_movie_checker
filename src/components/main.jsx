@@ -21,9 +21,6 @@ export function Main() {
           <h4 className="mt-10 w-80 sm:text-xl text-blue-500 underline">
             <Link href="/newest/news1">・8月の情報を更新しました。</Link>
           </h4>
-          {/* <h4 className="mt-10 text-xl w-80 text-blue-500 underline">
-            <Link href="/newest/news1">・7月の情報を更新しました。</Link>
-          </h4> */}
           <h4 className="mt-10 w-80 sm:text-xl text-blue-500 underline">
             <Link href="/">・最新情報</Link>
           </h4>
@@ -36,7 +33,7 @@ export function Main() {
         </div>
       </div>
       <div>
-        <h6 className="text-0.5xl text-yellow-800 float-right mt-40 sm:mt-0.5 mr-40 border-red-600 ">updated in 2021/08/25</h6>
+        <h6 className="text-0.5xl text-yellow-800 float-right sm:mt-0.5 mr-40 border-red-600">updated in 2021/08/25</h6>
       </div>
     </div >
   );
