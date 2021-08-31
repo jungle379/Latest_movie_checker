@@ -5,7 +5,7 @@ export function Main() {
   return (
     <div>
       <Header />
-      <div className="mt-20 flex h-20 justify-around">
+      <div className="mt-20 flex h-20 justify-around ml-5 mr-5">
         <Link href="/newest/latest">
           <h1 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">今週公開の映画</h1>
         </Link>
