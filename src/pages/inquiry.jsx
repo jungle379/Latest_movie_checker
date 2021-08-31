@@ -39,7 +39,7 @@ const Inquiry = () => {
             name: Yup.string()
               .required('氏名は必須です'),
             company: Yup.string()
-              .required('御社名は必須です'),
+              .required('職業は必須です'),
             email: Yup.string()
               .email('メールアドレスの形式に誤りがあります')
               .required('メールアドレスは必須です'),
@@ -99,7 +99,7 @@ const Inquiry = () => {
               <div>
                 <div className="mt-5">
                   <label htmlFor="company">
-                    会社名
+                    職業
                     <span className="text-red-600 pl-5">必須</span>
                     <ErrorMessage name="company">
                       {msg => <span aria-live="polite"><FontAwesomeIcon icon={faExclamationTriangle} />{msg}</span>}
@@ -111,7 +111,7 @@ const Inquiry = () => {
                     name="company"
                     id="company"
                     type="text"
-                    placeholder="会社名や団体名をご記入ください"
+                    placeholder="職業をご記入ください"
                     aria-required="true"
                     aria-invalid={errors.company ? 'true' : 'false'}
                   />
