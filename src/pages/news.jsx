@@ -22,14 +22,14 @@ const News = () => {
     <div className="h-screen sm:bg-green-100">
       <Header />
       <div className="ml-10 mt-10 text-2xl">トピックス</div>
-
       <div>
         {ITEMS.map(item => {
           return (
             <div className="text-2xl text-blue-500 pt-10 pl-10">
               <Link href={item.href}>
                 <li>{item.title}</li>
-              </Link></div>
+              </Link>
+            </div>
           )
         })}
       </div>
