@@ -33,7 +33,7 @@ export function Main() {
         </div>
       </div>
       <div>
-        <h6 className="text-0.5xl text-yellow-800 float-right sm:mt-0.5 mr-40 border-red-600">updated in 2021/08/25</h6>
+        <h6 className="text-0.5xl text-yellow-800 float-right sm:mt-0.5 mr-40 border-red-600 sm:visible invisible">updated in 2021/08/25</h6>
       </div>
     </div >
   );
