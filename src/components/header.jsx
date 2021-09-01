@@ -7,13 +7,13 @@ export function Header() {
         <a className="sm:text-6xl text-red-400">Latest Movie Checker</a>
       </Link>
       <Link href="/header/beginner">
-        <h1 className="flex-auto text-0.5xl ml-10 m-5 w-60 text-pink-300">初めての方へ</h1>
+        <h1 className="flex-auto text-0.5xl sm:text-2xl ml-10 m-5 w-60 text-pink-300">初めての方へ</h1>
       </Link>
       <Link href="/header/creater">
-        <h2 className="flex-auto text-0.5xl ml-10 m-5 w-60 text-pink-300">作成者について</h2>
+        <h2 className="flex-auto text-0.5xl sm:text-2xl ml-10 m-5 w-60 text-pink-300">作成者について</h2>
       </Link>
       <Link href="header/theathers">
-        <h3 className="flex-auto text-0.5xl ml-10 m-5 w-60 text-pink-300">シネコン一覧</h3>
+        <h3 className="flex-auto text-0.5xl sm:text-2xl ml-10 m-5 w-60 text-pink-300">シネコン一覧</h3>
       </Link>
     </div>
   );
