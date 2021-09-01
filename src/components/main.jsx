@@ -7,13 +7,13 @@ export function Main() {
       <Header />
       <div className="mt-20 flex h-20 justify-around ml-5 mr-5">
         <Link href="/newest/latest">
-          <h1 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">今週公開の映画</h1>
+          <h1 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400 border-2 border-gray-600">今週公開の映画</h1>
         </Link>
         <Link href="/archive/[page]" as="/archive/1">
-          <h2 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">今月公開予定の映画</h2>
+          <h2 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400 border-2 border-gray-600">今月公開予定の映画</h2>
         </Link>
         <Link href="/near/map">
-          <h3 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400">近くの映画館を探す</h3>
+          <h3 className="bg-center w-1/3 text-center bg-gray-200 sm:text-4xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400 border-2 border-gray-600">近くの映画館を探す</h3>
         </Link>
       </div>
       <div className="flex justify-around mt-20 h-80 sm:border-dashed sm:border-8 sm:border-red-400 mr-40 ml-40">
@@ -22,7 +22,7 @@ export function Main() {
             <Link href="/newest/news1">・8月の情報を更新しました。</Link>
           </h4>
           <h4 className="mt-10 w-80 sm:text-xl text-blue-500 underline">
-            <Link href="/">・最新情報</Link>
+            <Link href="/">・その他の最新情報</Link>
           </h4>
         </div>
         <div className="sm:text-2xl mt-10 sm:w-80 text-blue-500 underline">
