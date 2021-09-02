@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Header } from "../../components/header";
-import { Footer } from "../../components/footer";
+import { Header } from "../components/header";
+import { Footer } from "../components/footer";
 
 const ITEMS = [
   {
@@ -13,6 +13,15 @@ const ITEMS = [
   }, {
     href: "/",
     title: "新宿バルト9"
+  }, {
+    href: "/",
+    title: "イオンモールシネマ"
+  }, {
+    href: "/",
+    title: "大阪ステーションシネマ"
+  }, {
+    href: "/",
+    title: "テアトル系劇場"
   }
 ];
 
