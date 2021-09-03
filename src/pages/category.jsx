@@ -6,13 +6,13 @@ import { Header } from "../components/header";
 const ITEMS = [
   {
     href: "/",
-    title: "アクション映画"
+    title: "・アクション映画"
   }, {
     href: "/",
-    title: "ファンタジー"
+    title: "・ファンタジー"
   }, {
     href: "/",
-    title: "アニメ"
+    title: "・アニメ"
   }
 ];
 
@@ -21,14 +21,14 @@ const Category = () => {
     <Head>
       <title>ジャンル別作品</title>
     </Head>
-    <Header />
-    <div className="h-screen sm:bg-green-100">
+    <div className="h-screen sm:bg-green-100 bg-green-300">
+      <Header />
       <div>
         {ITEMS.map(item => {
           return (
             <div className="text-2xl text-blue-500 pt-10 pl-10">
               <Link href={item.href}>
-                <li>{item.title}</li>
+                <a>{item.title}</a>
               </Link></div>
           )
         })}

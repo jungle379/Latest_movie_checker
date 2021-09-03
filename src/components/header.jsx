@@ -12,6 +12,9 @@ export function Header() {
       <Link href="/header/creater">
         <a className="flex-auto text-0.5xl sm:text-2xl ml-10 m-5 w-60 text-pink-300 underline">作成者について</a>
       </Link>
+      <Link href="../category">
+        <a className="flex-auto text-0.5xl sm:text-2xl ml-10 m-5 w-60 text-pink-300 underline">どんなジャンルが好き？</a>
+      </Link>
     </div>
   );
 }
