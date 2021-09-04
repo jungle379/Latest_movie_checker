@@ -2,10 +2,10 @@ import Link from 'next/link'
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
 
-export default function News1() {
+export default function CoNews() {
   return (
     <>
-      <title>8月の情報を更新しました</title>
+      <title>過去のニュース一覧</title>
       <main className="h-screen sm:bg-green-100 bg-green-300">
         <Header />
         <div>
