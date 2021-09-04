@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
@@ -5,7 +6,9 @@ import { Header } from '../../components/header'
 export default function CoNews() {
   return (
     <>
-      <title>過去のニュース一覧</title>
+      <Head>
+        <title>過去のニュース一覧</title>
+      </Head>
       <main className="h-screen sm:bg-green-100 bg-green-300">
         <Header />
         <div>
