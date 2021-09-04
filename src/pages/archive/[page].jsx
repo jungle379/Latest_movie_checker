@@ -19,9 +19,11 @@ export default function Archive(props) {
           key={post.id}
           className="post-teaser"
         >
-          <h2 className="sm:text-2xl text-red-500 ml-10 sm:ml-40 mb-10">
-            <Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link></h2>
-          <div><span>{post.published}</span></div>
+          <h2 className="sm:text-2xl text-indigo-500 hover:text-red-700 ml-10 sm:ml-40 mb-10">
+            <Link href="/posts/[id]" as={`/posts/${post.id}`}><a>{post.title}</a></Link>
+          </h2>
+          <div><span>{post.published}</span>
+          </div>
         </div>)
       }
       <Pager
