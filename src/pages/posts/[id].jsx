@@ -1,10 +1,12 @@
+import Head from 'next/head'
 import { getAllPostIds, getPostData } from '../../../lib/posts'
 import Date from '../../components/date'
 
 export default function Post({ postData }) {
   return (
     <>
-      <title>{postData.title}</title>
+      <Head>
+        <title>{postData.title}</title></Head>
       <article className="max-w-screen">
         <h1 className="text-4xl bg-center">{postData.title}</h1>
         <div className="text-2xl text-red-800">
