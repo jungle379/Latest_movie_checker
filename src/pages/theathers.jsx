@@ -28,7 +28,7 @@ const ITEMS = [
 const Others = () => {
   return <>
     <Head>
-      <title>シネコン一覧</title>
+      <title>主なシネコン一覧</title>
     </Head>
     <div className="h-screen sm:bg-green-100 bg-green-300">
       <Header />
@@ -36,14 +36,13 @@ const Others = () => {
       <div>
         {ITEMS.map(item => {
           return (
-            <div className="text-2xl text-blue-500 pt-10 pl-10">
+            <div className="sm:text-2xl text-blue-500 hover:text-red-700 pt-10 pl-10">
               <Link href={item.href}>
                 <li>{item.title}</li>
               </Link></div>
           )
         })}
       </div>
-
       <Footer />
     </div>
   </>
