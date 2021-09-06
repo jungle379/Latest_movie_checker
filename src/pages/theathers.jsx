@@ -17,7 +17,7 @@ const ITEMS = [
     href: "/",
     title: "イオンモールシネマ"
   }, {
-    href: "/",
+    href: "https://www.osakastationcitycinema.com/site/oscc/",
     title: "大阪ステーションシネマ"
   }, {
     href: "/",
