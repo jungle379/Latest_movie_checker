@@ -15,8 +15,8 @@ const Inquiry = () => {
     </Head>
     <div className="sm:bg-green-100 bg-green-300">
       <Header />
-      <div className="text-2xl mt-10 ml-10 text-pink-400">入力フォーム</div>
-      <div className="text-2xl mt-10 ml-40 mb-5 text-red-500">※注意点※
+      <div className="sm:text-2xl mt-10 ml-10 text-pink-400">入力フォーム</div>
+      <div className="sm:text-2xl mt-10 ml-40 mb-5 text-red-500">※注意点※
         <li className="text-red-400">必須項目は必ず入力してください</li>
         <li className="text-red-400">入力後は「入力内容の送信」ボタンをクリックしてください</li>
       </div>

@@ -22,6 +22,9 @@ const ITEMS = [
   }, {
     href: "/",
     title: "テアトル系劇場"
+  }, {
+    href: "/",
+    title: "梅田ブルク７"
   }
 ];
 
@@ -32,7 +35,7 @@ const Others = () => {
     </Head>
     <div className="h-screen sm:bg-green-100 bg-green-300">
       <Header />
-      <div className="text-4xl ml-10 mt-20">一覧</div>
+      <div className="text-4xl text-blue-800 ml-10 mt-20">シネコン一覧</div>
       <div>
         {ITEMS.map(item => {
           return (
