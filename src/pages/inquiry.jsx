@@ -106,6 +106,7 @@ const Inquiry = () => {
                     </ErrorMessage>
                   </label>
                 </div>
+                {/* 入力ではなく、選択するように変更。 */}
                 <div>
                   <Field
                     className="w-60"
