@@ -13,14 +13,14 @@ const Inquiry = () => {
     <Head>
       <title>入力フォーム</title>
     </Head>
-    <div className="sm:bg-green-100 bg-green-300">
+    <div className="h-auto w-screen sm:bg-green-100 bg-green-300">
       <Header />
-      <div className="sm:text-2xl mt-10 ml-10 text-pink-400">入力フォーム</div>
-      <div className="sm:text-2xl mt-10 ml-40 mb-5 text-red-500">※注意点※
+      <div className="sm:text-4xl mt-10 sm:ml-40 text-pink-400">入力フォーム</div>
+      <div className="sm:text-2xl mt-10 sm:pl-80 mb-5 text-red-500">※注意点※
         <li className="text-red-400">必須項目は必ず入力してください</li>
         <li className="text-red-400">入力後は「入力内容の送信」ボタンをクリックしてください</li>
       </div>
-      <div className="ml-40">
+      <div className="sm:pl-96 sm:text-2xl">
         <Formik
           initialValues={{
             inquiryType: '',
@@ -108,6 +108,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
+                    className="w-60"
                     name="company"
                     id="company"
                     type="text"
@@ -129,6 +130,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
+                    className="w-72"
                     name="name"
                     id="name"
                     type="text"
@@ -150,6 +152,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
+                    className="w-96 text-0.5xl"
                     name="email"
                     id="email"
                     type="email"
@@ -193,9 +196,9 @@ const Inquiry = () => {
                   />
                 </div>
               </div>
-              <div>
+              <div className="pl-64">
                 <button
-                  className="text-2xl mt-10 hover:bg-pink-200 hover:opacity-75"
+                  className="text-2xl mt-10 border-gray-500 border-2 bg-gray-300 hover:bg-pink-200 hover:opacity-75"
                   disabled={isSubmitting}
                   type="submit"
                   id="submit"
