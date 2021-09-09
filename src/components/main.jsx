@@ -23,7 +23,7 @@ export function Main() {
         <div>
           <h1 className="sm:text-4xl mt-10 ml-10">最新情報</h1>
           <h2 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
-            <Link href="/newest/news1">・8月の情報を更新しました。</Link>
+            <Link href="/newest/news1">・9月の情報を更新しました。</Link>
           </h2>
           <h3 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
             <Link href="/newest/co-news">・その他の最新情報</Link>

@@ -25,6 +25,9 @@ const ITEMS = [
   }, {
     href: "/",
     title: "・サスペンス"
+  }, {
+    href: "/",
+    title: "・ミュージカル"
   }
 ];
 
@@ -36,7 +39,7 @@ const Category = () => {
     <div className="h-screen sm:bg-green-100 bg-green-300">
       <Header />
       <div>
-        <div className="sm:text-4xl ml-10 mt-16">ジャンル</div>
+        <div className="sm:text-4xl text-blue-800 ml-10 mt-16">ジャンル</div>
         {ITEMS.map(item => {
           return (
             <div className="sm:text-2xl text-blue-500 pt-10 pl-20 hover:text-red-600">
