@@ -36,7 +36,7 @@ export function Main() {
           <Link href="/news">・ニュース一覧</Link>
         </div>
       </div>
-      <div className="text-0.5xl text-yellow-800 float-right sm:mt-0.5 mr-40 border-red-600 sm:visible invisible">updated in 2021/08/25</div>
+      <div className="text-0.5xl text-yellow-800 float-right sm:mt-0.5 mr-40 border-red-600 sm:visible invisible">updated in 2021/09/10</div>
     </div>
   );
 }
