@@ -16,7 +16,7 @@ const Inquiry = () => {
     <div className="h-auto w-screen sm:bg-green-100 bg-green-300">
       <Header />
       <div className="sm:text-4xl mt-10 sm:ml-40 text-pink-400">入力フォーム</div>
-      <div className="sm:text-2xl mt-10 sm:pl-80 mb-5 text-red-500">※注意点※
+      <div className=" mt-10 sm:pl-80 mb-5 text-red-500">※注意点※
         <li className="text-red-400">必須項目は必ず入力してください</li>
         <li className="text-red-400">入力後は「入力内容の送信」ボタンをクリックしてください</li>
       </div>
@@ -169,6 +169,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
+                    className="w-60"
                     name="address"
                     id="address"
                     component="textarea"
@@ -188,6 +189,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
+                    className="h-56 w-96"
                     name="content"
                     id="content"
                     component="textarea"
