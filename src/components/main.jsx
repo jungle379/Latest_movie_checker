@@ -26,7 +26,7 @@ export function Main() {
             <Link href="/newest/news1">・9月の情報を更新しました。</Link>
           </h2>
           <h3 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
-            <Link href="/newest/co-news">・その他の最新情報</Link>
+            <Link href="/newest/co-news">・その他の情報</Link>
           </h3>
         </div>
         <div className="sm:text-2xl w-60 sm:ml-10 mt-10 sm:w-80 text-blue-500 underline">
