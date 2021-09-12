@@ -120,6 +120,7 @@ const Inquiry = () => {
                     <option value="none">職業をお選びください</option>
                     <option value="student">学生</option>
                     <option value="SM">会社員</option>
+                    <option value="SW">公務員</option>
                     <option value="PA">パート・アルバイト</option>
                     <option value="OTHER">その他</option>
                   </Field>
