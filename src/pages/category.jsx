@@ -5,7 +5,7 @@ import { Header } from "../components/header";
 
 const ITEMS = [
   {
-    href: "/",
+    href: "../cat/action",
     title: "・アクション"
   }, {
     href: "/",
