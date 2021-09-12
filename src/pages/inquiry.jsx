@@ -108,7 +108,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
-                    className="w-60"
+                    className="w-72"
                     component="select"
                     name="company"
                     id="company"
@@ -117,7 +117,7 @@ const Inquiry = () => {
                     aria-required="true"
                     aria-invalid={errors.company ? 'true' : 'false'}
                   >
-                    <option value="none">---</option>
+                    <option value="none">職業をお選びください</option>
                     <option value="student">学生</option>
                     <option value="SM">会社員</option>
                     <option value="PA">パート・アルバイト</option>
