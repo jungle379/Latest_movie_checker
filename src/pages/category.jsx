@@ -26,7 +26,7 @@ const ITEMS = [
     href: "/",
     title: "・サスペンス"
   }, {
-    href: "/",
+    href: "../cat/musical",
     title: "・ミュージカル"
   }
 ];
@@ -36,7 +36,7 @@ const Category = () => {
     <Head>
       <title>ジャンル別オススメ作品</title>
     </Head>
-    <div className="h-screen sm:bg-green-100 bg-green-300">
+    <div className="h-auto sm:bg-green-100 bg-green-300">
       <Header />
       <div>
         <div className="sm:text-4xl text-blue-800 ml-10 mt-16">ジャンル</div>
