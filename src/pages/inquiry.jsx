@@ -176,7 +176,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
-                    className="w-60"
+                    className="w-96"
                     name="address"
                     id="address"
                     component="textarea"
@@ -196,7 +196,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <Field
-                    className="h-56 w-96"
+                    className="h-36 w-96"
                     name="content"
                     id="content"
                     component="textarea"
