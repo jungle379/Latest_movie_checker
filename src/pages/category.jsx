@@ -8,7 +8,7 @@ const ITEMS = [
     href: "../cat/action",
     title: "・アクション"
   }, {
-    href: "/",
+    href: "../cat/fantasy",
     title: "・ファンタジー"
   }, {
     href: "/",
