@@ -7,7 +7,7 @@ export default function News1() {
   return (
     <>
       <Head>
-        <title>8月のニュース一覧</title>
+        <title>9月のニュース一覧</title>
       </Head>
       <main className="h-screen sm:bg-green-100 bg-green-300">
         <Header />
