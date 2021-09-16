@@ -12,7 +12,7 @@ const fetcher = async (url) => {
 };
 
 const usePosts = () => {
-  const { data, error } = useSWR("https://jsonplaceholder.typicode.com/postaaa",
+  const { data, error } = useSWR("https://jsonplaceholder.typicode.com/posts",
     fetcher);
   return {
     data,
