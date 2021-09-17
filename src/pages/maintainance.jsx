@@ -40,7 +40,6 @@ const Maintaince = () => {
       })}
     </div>
     <Footer />
-
   </>
 };
 
