@@ -12,7 +12,7 @@ const fetcher = async (url) => {
 };
 
 const usePosts = () => {
-  const { data, error } = useSWR("https://jsonplaceholder.typicode.com/posts",
+  const { data, error } = useSWR("https://jsonplaceholder.typicode.com/users",
     fetcher);
   return {
     data,
@@ -41,8 +41,8 @@ const Test = () => {
 
   return (
     <ol>
-      {data.map((post) => {
-        return <li key={post.id}>{post.title}</li>;
+      {data.map((user) => {
+        return <li key={user.id}>{user.name}</li>;
       })}
     </ol >
   );

@@ -6,13 +6,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Head from 'next/head';
+import Test from '../../components/test';
 
 const Creater = () => {
   return <>
     <Head>
       <title>作成者情報</title>
     </Head>
-    <main className="h-auto sm:bg-green-100 bg-green-300">
+    <main className="h-full sm:bg-green-100 bg-green-300">
       <Header />
       <div className="sm:text-4xl ml-20 mt-20 text-red-500">作成者について
         <h1 className="sm:text-4xl mt-10 ml-10 text-black">森野　弘規</h1>
