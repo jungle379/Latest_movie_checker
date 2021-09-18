@@ -28,11 +28,11 @@ const Beginner = () => {
       </div>
       <div className="flex">
         <h1 className="ml-40 mt-10 w-40 text-blue-500 hover:text-red-500 sm:text-2xl text-1xl">
-          <Link href="/kiyaku">・規約へ</Link>
+          <Link href="../header/kiyaku">・規約へ</Link>
         </h1>
         <h2 className="text-blue-500 ml-20 sm:ml-80 mt-10 w-80 hover:text-red-500 sm:text-2xl text-1xl">
           {/* <button onClick={clickButton}>・問い合わせフォームへ</button> */}
-          <Link href="../inquiry">・問い合わせフォームへ</Link>
+          <Link href="../header/inquiry">・問い合わせフォームへ</Link>
         </h2>
       </div>
     </div>

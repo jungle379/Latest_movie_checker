@@ -2,11 +2,10 @@ import Head from "next/head";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
-import { Footer } from "../components/footer";
-import { Header } from "../components/header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
-
+import { Header } from "../../components/header";
+import { Footer } from "../../components/footer";
 
 const Inquiry = () => {
   return <>
