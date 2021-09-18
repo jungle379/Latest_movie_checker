@@ -12,7 +12,7 @@ export function Header() {
       <Link href="/header/creater">
         <a className="flex-auto text-0.5xl sm:text-1xl ml-10 m-5 w-60 hover:text-red-600 underline">作成者について</a>
       </Link>
-      <Link href="../category">
+      <Link href="/header/mypage">
         <a className="flex-auto text-0.5xl sm:text-1xl ml-10 m-5 w-80 hover:text-red-600 underline">マイページへ</a>
       </Link>
     </div>
