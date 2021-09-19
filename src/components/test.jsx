@@ -1,4 +1,4 @@
-import useSWR from 'swr';
+import useSWRImmutable from 'swr/immutable';
 
 const fetcher = async (url) => {
   const response = await fetch(url);
@@ -12,7 +12,7 @@ const fetcher = async (url) => {
 };
 
 const usePosts = () => {
-  const { data, error } = useSWR("https://jsonplaceholder.typicode.com/users",
+  const { data, error } = useSWRImmutable("https://jsonplaceholder.typicode.com/users",
     fetcher);
   return {
     data,
