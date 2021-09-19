@@ -1,5 +1,33 @@
 import Link from "next/link"
-import { SignedIn, SignedOut, SignIn } from "@clerk/clerk-react";
+import { SignedIn, SignedOut } from "@clerk/clerk-react";
+
+const ClerkFeatures = () => (
+  <Link href="/user">
+    <a>
+      <img src="/icons/layout.svg" />
+      <div>
+        <h3>Explore features provided by Clerk</h3>
+      </div>
+      <div>
+        <img src="/icons/arrow-right.svg" />
+      </div>
+    </a>
+  </Link>
+);
+
+const SignupLink = () => (
+  <Link href="/sign-up">
+    <a>
+      <img src="/icons/user-plus.svg" />
+      <div>
+        <h3>Sign up for an account</h3>
+      </div>
+      <div>
+        <img src="/icons/arrow-right.svg" />
+      </div>
+    </a>
+  </Link>
+);
 
 export function Header() {
   return (
@@ -16,10 +44,29 @@ export function Header() {
       <Link href="/header/mypage">
         <a className="flex-auto text-0.5xl sm:text-1xl ml-10 m-5 w-80 hover:text-red-600 underline">マイページへ</a>
       </Link>
-      {/* <SignedIn />
-      <SignedOut>
-        <SignIn />
-      </SignedOut> */}
+      <div>
+        <div>
+          <SignedIn>
+            <ClerkFeatures />
+          </SignedIn>
+          <SignedOut>
+            <SignupLink />
+          </SignedOut>
+        </div>
+        <div>
+          <Link href="https://dashboard.clerk.dev">
+            <a target="_blank" rel="noreferrer">
+              <img src="/icons/settings.svg" />
+              <div>
+                <h3>Configure settings for your app</h3>
+              </div>
+              <div>
+                <img src="/icons/arrow-right.svg" />
+              </div>
+            </a>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
