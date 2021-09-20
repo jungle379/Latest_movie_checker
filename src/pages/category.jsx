@@ -45,7 +45,8 @@ const Category = () => {
             <div className="sm:text-2xl text-blue-500 pt-10 pl-20 hover:text-red-600">
               <Link href={item.href}>
                 <a>{item.title}</a>
-              </Link></div>
+              </Link>
+            </div>
           )
         })}
       </div>
