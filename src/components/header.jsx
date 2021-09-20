@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { SignedIn, SignedOut } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const ClerkFeatures = () => (
   <Link href="/user">
@@ -50,7 +50,16 @@ export function Header() {
             <SignupLink />
           </SignedOut>
         </div>
-        {/* <div>
+      </div>
+      <div className="ml-20 mt-5">
+        <SignedOut>
+          <Link href="/sign-in">Sign in</Link>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
+      </div>
+      {/* <div>
           <Link href="https://dashboard.clerk.dev">
             <a target="_blank" rel="noreferrer">
               <img src="/icons/settings.svg" />
@@ -63,7 +72,6 @@ export function Header() {
             </a>
           </Link>
         </div> */}
-      </div>
-    </div>
+    </div >
   );
 }
