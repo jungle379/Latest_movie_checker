@@ -18,12 +18,12 @@ const ClerkFeatures = () => (
 const SignupLink = () => (
   <Link href="/sign-up">
     <a>
-      <img src="/icons/user-plus.svg" />
       <div>
-        <h3>Sign up for an account</h3>
+        <h3>アカウント作成</h3>
       </div>
-      <div>
+      <div className="flex">
         <img src="/icons/arrow-right.svg" />
+        <img src="/icons/user-plus.svg" />
       </div>
     </a>
   </Link>
@@ -42,7 +42,7 @@ export function Header() {
         <a className="flex-none text-0.5xl sm:text-1xl ml-10 m-5 w-30 hover:text-red-600 underline">作成者について</a>
       </Link>
       <div>
-        <div className="sm:visible invisible ml-10 mt-5">
+        <div className="sm:visible invisible ml-10 mt-5 hover:text-red-600">
           <SignedIn>
             <ClerkFeatures />
           </SignedIn>
@@ -51,9 +51,9 @@ export function Header() {
           </SignedOut>
         </div>
       </div>
-      <div className="ml-20 mt-5">
+      <div className="ml-20 mt-5 hover:text-red-600">
         <SignedOut>
-          <Link href="/sign-in">Sign in</Link>
+          <Link href="/sign-in">ログイン画面へ</Link>
         </SignedOut>
         <SignedIn>
           <UserButton />
