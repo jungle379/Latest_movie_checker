@@ -39,7 +39,7 @@ export function Main() {
       <div className="text-0.5xl text-yellow-800 float-right mt-0.5 mr-40 sm:visible invisible">updated in 2021/09/20</div>
       <div className="mt-10">
         <Link href="../category">
-          <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline">ジャンル別オススメ映画</a>
+          <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500">ジャンル別オススメ映画</a>
         </Link>
       </div>
     </div>
