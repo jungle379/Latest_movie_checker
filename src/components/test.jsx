@@ -1,6 +1,6 @@
 import useSWRImmutable from 'swr/immutable';
 
-const API = "https://jsonplaceholder.typicode.com/users"
+const API = "https://jsonplaceholder.typicode.com/users/"
 
 const fetcher = async (url) => {
   const response = await fetch(url);
