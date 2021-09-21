@@ -1,5 +1,7 @@
 import useSWRImmutable from 'swr/immutable';
 
+const API = "https://jsonplaceholder.typicode.com/users"
+
 const fetcher = async (url) => {
   const response = await fetch(url);
 
@@ -12,7 +14,7 @@ const fetcher = async (url) => {
 };
 
 const usePosts = () => {
-  const { data, error } = useSWRImmutable("https://jsonplaceholder.typicode.com/users",
+  const { data, error } = useSWRImmutable(API,
     fetcher);
   return {
     data,
