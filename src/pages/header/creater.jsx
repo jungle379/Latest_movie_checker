@@ -31,9 +31,8 @@ const Creater = () => {
         <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
         <Link href="/">facebook</Link>
       </div>
-      <Test></Test>
+      <Test />
     </main>
-
     <Footer />
   </>
 };
