@@ -13,7 +13,7 @@ export default function News1() {
         <Header />
         <div>
           <h1 className="sm:text-2xl pb-5 text-red-700 mt-20 ml-10 sm:ml-20">更新済みの最新情報</h1>
-          ・情報を入れる
+          ・Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eius aperiam ea ipsum? Asperiores, adipisci quod. Libero molestiae nostrum, quisquam facere quo ad nihil porro, eum neque aliquam deserunt necessitatibus.
         </div>
         <Footer />
       </main>
