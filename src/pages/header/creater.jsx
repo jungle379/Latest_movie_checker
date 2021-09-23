@@ -29,7 +29,7 @@ const Creater = () => {
       <div className="text-2xl text-blue-700 ml-40 mt-10">
         <FontAwesomeIcon className="h-10 mr-5" icon={faFacebookSquare} />
         <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
-        <Link href="/">facebook</Link>
+        <Link href="https://www.facebook.com/hiroki.morino.9">facebook</Link>
       </div>
       <Test />
     </main>
