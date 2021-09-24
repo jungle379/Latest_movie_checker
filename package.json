@@ -28,6 +28,7 @@
     "react-dom": "17.0.1",
     "react-google-map": "^3.1.1",
     "react-google-maps": "^9.4.5",
+    "react-hot-toast": "^2.1.1",
     "react-icons": "^4.2.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
