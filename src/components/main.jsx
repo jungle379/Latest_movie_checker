@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Header } from "./header";
 import toast, { Toaster } from 'react-hot-toast';
 
-const notify = () => toast.loading('Here is your toast.');
+const notify = () => toast.success('Here is your toast.');
 
 export function Main() {
   return (
