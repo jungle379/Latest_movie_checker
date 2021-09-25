@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { Header } from "./header";
+import toast, { Toaster } from 'react-hot-toast';
+
+const notify = () => toast('Here is your toast.');
 
 export function Main() {
   return (
@@ -41,6 +44,10 @@ export function Main() {
         <Link href="../category">
           <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500">ジャンル別オススメ映画</a>
         </Link>
+      </div>
+      <div>
+        <button onClick={notify}>Make me a toast</button>
+        <Toaster />
       </div>
     </div>
   );
