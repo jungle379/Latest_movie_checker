@@ -2,11 +2,11 @@ import Link from "next/link";
 import { Header } from "./header";
 import toast, { Toaster } from 'react-hot-toast';
 
-const notify = () => toast('Here is your toast.');
+const notify = () => toast.loading('Here is your toast.');
 
 export function Main() {
   return (
-    <div>
+    <>
       <Header />
       <div className="mt-20 flex sm:h-20 justify-around ml-5 mr-5">
         <Link href="/newest/latest">
@@ -37,18 +37,16 @@ export function Main() {
         </div>
         <div className="sm:text-2xl w-60 sm:ml-10 mt-10 sm:w-80 text-blue-500 underline">
           <Link href="/news">・ニュース一覧</Link>
+          <button className="pt-10" onClick={notify}>Make me a toast</button>
+          <Toaster />
         </div>
       </div>
       <div className="text-0.5xl text-yellow-800 float-right mt-0.5 mr-40 sm:visible invisible">updated in 2021/09/20</div>
       <div className="mt-10">
         <Link href="../category">
-          <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500">ジャンル別オススメ映画</a>
+          <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500 invisible sm:visible">ジャンル別オススメ映画</a>
         </Link>
       </div>
-      <div className="ml-40 mt-10 text-2xl">
-        <button onClick={notify}>Make me a toast</button>
-        <Toaster />
-      </div>
-    </div>
+    </>
   );
 }
