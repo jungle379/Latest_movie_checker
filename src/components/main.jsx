@@ -45,7 +45,7 @@ export function Main() {
           <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500">ジャンル別オススメ映画</a>
         </Link>
       </div>
-      <div>
+      <div className="ml-40 mt-10 text-2xl">
         <button onClick={notify}>Make me a toast</button>
         <Toaster />
       </div>
