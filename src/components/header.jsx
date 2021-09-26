@@ -1,5 +1,8 @@
 import Link from "next/link"
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
+import toast, { Toaster } from 'react-hot-toast';
+
+const notify = () => toast.success('ネットワーク環境は良好です。');
 
 const ClerkFeatures = () => (
   <Link href="/user">
@@ -41,6 +44,9 @@ export function Header() {
       <Link href="/header/creater">
         <a className="flex-none text-0.5xl sm:text-1xl ml-10 m-5 w-30 hover:text-red-600 underline">作成者について</a>
       </Link>
+      <div>
+        <button className="ml-10 mt-5 hover:text-red-600 underline" onClick={notify}>ネットワーク確認</button>
+        <Toaster /></div>
       <div>
         <div className="sm:visible invisible ml-10 mt-5 hover:text-red-600">
           <SignedIn>
