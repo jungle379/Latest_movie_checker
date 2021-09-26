@@ -23,17 +23,14 @@ export function Main() {
         <div>
           <h1 className="sm:text-4xl mt-10 ml-10">最新情報</h1>
           <h2 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
-            <Link href="/newest/news1">・9月の情報を更新しました。</Link>
+            <Link href="/newest/news1">・ニュース一覧</Link>
           </h2>
           <h3 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
-            <Link href="/newest/co-news">・その他の情報</Link>
+            <Link href="/newest/co-news">・過去の情報</Link>
           </h3>
         </div>
         <div className="sm:text-2xl w-60 sm:ml-10 mt-10 sm:w-80 text-blue-500 underline">
           <Link href="/maintainance">・メンテナンス情報</Link>
-        </div>
-        <div className="sm:text-2xl w-60 sm:ml-10 mt-10 sm:w-80 text-blue-500 underline">
-          <Link href="/news">・ニュース一覧</Link>
         </div>
       </div>
       <div className="text-0.5xl text-yellow-800 float-right mt-0.5 mr-40 sm:visible invisible">updated in 2021/09/20</div>
