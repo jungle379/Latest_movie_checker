@@ -29,7 +29,7 @@ export function Main() {
             <Link href="/newest/co-news">・過去の情報</Link>
           </h3>
         </div>
-        <div className="sm:text-2xl w-60 sm:ml-10 mt-10 sm:w-80 text-blue-500 underline">
+        <div className="sm:text-2xl w-60 sm:ml-10 sm:mt-20 sm:mb-20 pt-10 sm:w-80 text-blue-500 underline">
           <Link href="/maintainance">・メンテナンス情報</Link>
         </div>
       </div>
