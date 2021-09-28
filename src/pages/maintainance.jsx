@@ -1,11 +1,15 @@
 
 import Link from "next/link";
-import Head from "next/head"
-import { Footer } from '../components/footer'
-import { Header } from '../components/header'
+import Head from "next/head";
+import { Footer } from '../components/footer';
+import { Header } from '../components/header';
 
 const ITEMS = [
   {
+    href: "/",
+    title: "10月メンテナンス情報",
+    day: "(10/13)"
+  }, {
     href: "/",
     title: "9月メンテナンス情報",
     day: "(9/15)"

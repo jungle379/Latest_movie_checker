@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import toast, { Toaster } from 'react-hot-toast';
 

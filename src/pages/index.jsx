@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Footer } from '../components/footer'
+import { Footer } from '../components/footer';
 import { Main } from "../components/main";
 
 const Home = () => {

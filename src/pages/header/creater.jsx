@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import { Footer } from '../../components/footer'
-import { Header } from '../../components/header'
-import { Introduce } from '../../components/introduce'
+import Link from 'next/link';
+import { Footer } from '../../components/footer';
+import { Header } from '../../components/header';
+import { Introduce } from '../../components/introduce';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
