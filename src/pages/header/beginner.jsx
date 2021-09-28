@@ -22,7 +22,7 @@ const Beginner = () => {
         <ul className="ml-10 sm:ml-40 mt-5">・下部に問い合わせフォームへのボタンがあります。不明点は気兼ねなくお尋ねください。</ul>
       </div>
       <div className="flex">
-        <h1 className="ml-40 mt-10 w-40 text-blue-500 hover:text-red-500 sm:text-2xl text-1xl">
+        <h1 className="ml-40 pl-20 mt-10 w-96 text-blue-500 hover:text-red-500 sm:text-2xl text-1xl">
           <Link href="../header/kiyaku">・規約へ</Link>
         </h1>
         <h2 className="text-blue-500 ml-20 sm:ml-80 mt-10 w-80 hover:text-red-500 sm:text-2xl text-1xl">
