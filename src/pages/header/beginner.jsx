@@ -8,7 +8,7 @@ const Beginner = () => {
     <Head>
       <title>初めての方へ</title>
     </Head>
-    <div className="h-auto sm:bg-green-100 bg-green-300">
+    <div className="sm:h-screen sm:bg-green-100 bg-green-300">
       <Header />
       <div className="text-blue-800 sm:text-4xl mt-20 ml-5 sm:ml-20">このサイトの使い方</div>
       <div>
