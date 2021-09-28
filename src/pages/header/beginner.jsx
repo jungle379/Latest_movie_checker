@@ -19,7 +19,7 @@ const Beginner = () => {
         <ul className="ml-10 sm:ml-40 mt-5">・シネコン一覧へ　→代表的なシネコンの公式サイトへのリンクを準備しました。</ul>
         <h2 className="text-1xl sm:ml-40 ml-10 mt-10">外部リンクについて</h2>
         <ul className="ml-10 sm:ml-40 mt-5">・各映画詳細ページに外部リンクを設けています　→公式サイトの公開劇場一覧ページに遷移します。上映劇場は外部サイトから確認してください。</ul>
-        <ul className="ml-10 sm:ml-40 mt-5">・下部に問い合わせフォームへのボタンがあります。不明点は気兼ねなくお尋ねください。</ul>
+        <ul className="ml-10 sm:ml-40 mt-5">・下部に問い合わせフォームへのリンクがあります。不明点は気兼ねなくお尋ねください。</ul>
       </div>
       <div className="flex">
         <h1 className="ml-40 pl-20 mt-10 w-96 text-blue-500 hover:text-red-500 sm:text-2xl text-1xl">
