@@ -21,15 +21,15 @@ export function Main() {
       </div>
       <div className="sm:flex justify-around mt-20 h-80 sm:border-dashed sm:border-8 sm:border-red-400 mr-40 ml-40">
         <div>
-          <h1 className="sm:text-4xl mt-10 ml-10">最新情報</h1>
-          <h2 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
+          <h1 className="sm:text-4xl mt-10">最新情報</h1>
+          <h2 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 underline">
             <Link href="/newest/news1">・最新の情報一覧</Link>
           </h2>
-          <h3 className="mt-10 sm:ml-14 sm:text-2xl sm:w-100 text-blue-500 underline">
+          <h3 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 underline">
             <Link href="/newest/ex-news">・過去の情報</Link>
           </h3>
         </div>
-        <div className="sm:text-2xl w-60 sm:ml-10 sm:mt-20 sm:mb-20 pt-10 sm:w-80 text-blue-500 underline">
+        <div className="sm:text-2xl sm:ml-10 sm:mt-20 sm:mb-20 pt-10 text-blue-500 underline">
           <Link href="/maintainance">・メンテナンス情報</Link>
         </div>
       </div>

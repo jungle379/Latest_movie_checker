@@ -46,7 +46,8 @@ export function Header() {
       </Link>
       <div>
         <button className="ml-10 mt-5 hover:text-red-600 underline" onClick={notify}>ネットワーク確認</button>
-        <Toaster /></div>
+        <Toaster />
+      </div>
       <div>
         <div className="sm:visible invisible ml-10 mt-5 hover:text-red-600">
           <SignedIn>
