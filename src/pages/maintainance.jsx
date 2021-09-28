@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import Head from "next/head";
 import { Footer } from '../components/footer';
@@ -6,6 +5,14 @@ import { Header } from '../components/header';
 
 const ITEMS = [
   {
+    href: "/",
+    title: "12月メンテナンス情報",
+    day: "(12/14)"
+  }, {
+    href: "/",
+    title: "11月メンテナンス情報",
+    day: "(11/13)"
+  }, {
     href: "/",
     title: "10月メンテナンス情報",
     day: "(10/13)"
@@ -30,10 +37,10 @@ const Maintaince = () => {
     <Head>
       <title>メンテナンス情報</title>
     </Head>
-    <div className="h-screen sm:bg-green-100 bg-green-300">
+    <div className="sm:h-screen sm:bg-green-100 bg-green-300">
       <Header />
       <div className="sm:text-4xl mt-10">メンテナンス情報</div>
-      <h1 className="sm:text-2xl pt-10 pl-5">履歴</h1>
+      <h1 className="sm:text-2xl mt-10 ml-5">履歴</h1>
 
       {ITEMS.map(item => {
         return (
@@ -42,8 +49,8 @@ const Maintaince = () => {
           </Link></div>
         )
       })}
+      <Footer />
     </div>
-    <Footer />
   </>
 };
 
