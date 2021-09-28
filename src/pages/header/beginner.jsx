@@ -3,11 +3,6 @@ import Link from 'next/link';
 import { Footer } from '../../components/footer'
 import { Header } from '../../components/header'
 
-// const clickButton = (e) => {
-//   console.log(e);
-//   alert('ダミーなので問い合わせフォームへは遷移しません')
-// };
-
 const Beginner = () => {
   return <>
     <Head>
@@ -31,7 +26,6 @@ const Beginner = () => {
           <Link href="../header/kiyaku">・規約へ</Link>
         </h1>
         <h2 className="text-blue-500 ml-20 sm:ml-80 mt-10 w-80 hover:text-red-500 sm:text-2xl text-1xl">
-          {/* <button onClick={clickButton}>・問い合わせフォームへ</button> */}
           <Link href="../header/inquiry">・問い合わせフォームへ</Link>
         </h2>
       </div>
