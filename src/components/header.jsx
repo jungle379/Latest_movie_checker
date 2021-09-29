@@ -2,7 +2,7 @@ import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import toast, { Toaster } from 'react-hot-toast';
 
-const notify = () => toast.success('ネットワーク環境は良好です。');
+const notify = () => toast.error('ネットワークがつながっていません。');
 
 const ClerkFeatures = () => (
   <Link href="/user">
