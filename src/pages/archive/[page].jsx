@@ -1,10 +1,10 @@
-import fs from "fs"
-import Head from "next/head"
-import Link from "next/link"
-import { getSortedPostsData, listContentFiles } from "../../../lib/posts"
-import { Footer } from "../../components/footer"
-import { Header } from "../../components/header"
-import Pager from "../../components/pager"
+import fs from "fs";
+import Head from "next/head";
+import Link from "next/link";
+import { getSortedPostsData, listContentFiles } from "../../../lib/posts";
+import { Footer } from "../../components/footer";
+import { Header } from "../../components/header";
+import Pager from "../../components/pager";
 
 const COUNT_PER_PAGE = 10
 
