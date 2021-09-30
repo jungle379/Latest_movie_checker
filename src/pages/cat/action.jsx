@@ -13,6 +13,7 @@ const Action = () => {
       <div className="text-2xl mt-20 ml-10">オススメリスト</div>
       <h1 className="pt-10 pl-5">規約</h1>
       <li className="ml-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi velit eius illo reprehenderit animi, at iure tempore pariatur tempora facere deleniti rerum recusandae magnam? Perferendis facilis tenetur distinctio assumenda nemo?</li>
+      <li className="ml-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, delectus cum doloremque aut nobis quia ab est neque harum! Repellat non modi repellendus doloremque sint eligendi facilis cupiditate omnis. Reprehenderit.</li>
     </div>
     <Footer />
 
