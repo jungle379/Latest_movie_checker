@@ -32,7 +32,6 @@ const ITEMS = [
 ];
 
 const Maintaince = () => {
-
   return <>
     <Head>
       <title>メンテナンス情報</title>
