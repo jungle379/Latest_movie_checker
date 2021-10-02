@@ -34,9 +34,12 @@ export function Main() {
         </div>
       </div>
       <div className="text-0.5xl text-yellow-800 float-right mt-0.5 mr-40 sm:visible invisible">updated in 2021/10/01</div>
-      <div className="mt-10">
+      <div className="mt-10 flex">
         <Link href="../category">
-          <a className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500 invisible sm:visible">ジャンル別オススメ映画</a>
+          <h1 className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500 invisible sm:visible">ジャンル別オススメ映画</h1>
+        </Link>
+        <Link href="/">
+          <h1 className="text-2xl sm:text-1xl mt-10 ml-40 m-5 w-80 underline hover:text-red-500 invisible sm:visible">アカデミー賞候補</h1>
         </Link>
       </div>
     </>
