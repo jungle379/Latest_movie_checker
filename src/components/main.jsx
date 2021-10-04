@@ -39,6 +39,9 @@ export function Main() {
           <Link href="/">
             <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">アカデミー賞候補</h1>
           </Link>
+          <Link href="/">
+            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">コロナウィルス対策について</h1>
+          </Link>
         </div>
       </div>
       <div className="text-0.5xl text-yellow-800 mt-0.5 ml-40 sm:visible invisible">updated in 2021/10/01</div>

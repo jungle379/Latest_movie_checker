@@ -6,6 +6,9 @@ import { Header } from "../../components/header";
 const ITEMS = [
   {
     href: "/",
+    title: "舞台挨拶情報"
+  }, {
+    href: "/",
     title: "1つ目です"
   }, {
     href: "/",
@@ -14,18 +17,17 @@ const ITEMS = [
 ];
 
 const News = () => {
-
   return <>
     <Head>
       <title>最新のニュース</title>
     </Head>
-    <div className="h-screen sm:bg-green-100">
+    <div className="h-screen sm:bg-green-100 bg-green-300">
       <Header />
-      <div className="ml-10 mt-10 text-2xl">最新のニュース一覧</div>
+      <div className="ml-10 mt-10 sm:text-2xl">最新のニュース一覧</div>
       <div>
         {ITEMS.map(item => {
           return (
-            <div className="text-2xl text-blue-500 pt-10 pl-10">
+            <div className="sm:text-2xl text-blue-500 pt-10 pl-10">
               <Link href={item.href}>
                 <li>{item.title}</li>
               </Link>
