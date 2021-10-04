@@ -37,10 +37,10 @@ export function Main() {
             <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">ジャンル別オススメ映画</h1>
           </Link>
           <Link href="/">
-            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">アカデミー賞候補</h1>
+            <h2 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">アカデミー賞候補</h2>
           </Link>
           <Link href="/">
-            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">コロナウィルス対策について</h1>
+            <h3 className="text-1xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">コロナウィルス対策について</h3>
           </Link>
         </div>
       </div>
