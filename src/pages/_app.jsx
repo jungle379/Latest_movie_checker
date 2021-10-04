@@ -1,8 +1,8 @@
 import "tailwindcss/tailwind.css";
 import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut } from '@clerk/clerk-react'
+import { useRouter } from 'next/router'
 
 const publicPages = ["/", "/sign-in/[[...index]]", "/sign-up/[[...index]]"];
-import { useRouter } from 'next/router'
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter();

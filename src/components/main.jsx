@@ -34,10 +34,10 @@ export function Main() {
         </div>
         <div className="mt-10">
           <Link href="../category">
-            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-20 underline hover:text-red-500 invisible sm:visible">ジャンル別オススメ映画</h1>
+            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">ジャンル別オススメ映画</h1>
           </Link>
           <Link href="/">
-            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-20 underline hover:text-red-500 invisible sm:visible">アカデミー賞候補</h1>
+            <h1 className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">アカデミー賞候補</h1>
           </Link>
         </div>
       </div>
