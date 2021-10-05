@@ -19,7 +19,7 @@ export function Main() {
           <a className="bg-center w-1/4 text-center bg-gray-200 text-0.5xl sm:text-3xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400 border-2 border-gray-600">シネコン一覧へ</a>
         </Link>
       </div>
-      <div className="sm:flex justify-around mt-20 h-80 sm:border-dashed sm:border-8 sm:border-red-400 mr-40 ml-40 pl-10 pr-10">
+      <div className="sm:flex justify-around mt-20 h-96 sm:border-dashed sm:border-8 sm:border-red-400 mr-40 ml-40 pl-10 pr-10">
         <div>
           <h1 className="sm:text-4xl mt-10">最新情報</h1>
           <h2 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 underline">
@@ -28,7 +28,7 @@ export function Main() {
           <h3 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 underline">
             <Link href="/newest/ex-news">・過去の情報</Link>
           </h3>
-          <h4 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 underline">
+          <h4 className="mt-10 mb-5 sm:text-2xl sm:w-100 text-blue-500 underline">
             <Link href="/maintainance">・メンテナンス情報</Link>
           </h4>
         </div>
