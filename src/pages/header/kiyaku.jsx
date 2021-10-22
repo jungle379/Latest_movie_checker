@@ -9,7 +9,7 @@ const Kiyaku = () => {
     <Head>
       <title>サイト利用規約</title>
     </Head>
-    <div className="h-screen sm:bg-green-100">
+    <div className="h-full sm:bg-green-100">
       <Header />
       <div className="text-2xl mt-20 ml-10">利用規約</div>
       <h1 className="pt-10 pl-5">規約</h1>
