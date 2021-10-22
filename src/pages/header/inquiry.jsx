@@ -10,7 +10,7 @@ import { Footer } from "../../components/footer";
 const Inquiry = () => {
   return <>
     <Head>
-      <title>入力フォーム</title>
+      <title>お問合せフォーム</title>
     </Head>
     <div className="sm:h-full sm:bg-green-100 bg-green-300">
       <Header />
