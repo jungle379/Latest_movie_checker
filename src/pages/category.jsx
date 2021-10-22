@@ -42,7 +42,7 @@ const Category = () => {
         <div className="sm:text-4xl text-blue-800 ml-10 mt-16">ジャンル</div>
         {ITEMS.map(item => {
           return (
-            <div className="sm:text-2xl text-blue-500 pt-10 pl-20 hover:text-red-600">
+            <div className="sm:text-2xl text-blue-500 pt-10 pl-20 hover:text-red-600 w-72">
               <Link href={item.href}>
                 <a>{item.title}</a>
               </Link>
