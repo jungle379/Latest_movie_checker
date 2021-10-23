@@ -44,7 +44,7 @@ export function Main() {
           </Link>
         </div>
       </div>
-      <div className="text-0.5xl text-yellow-800 mt-0.5 ml-40 sm:visible invisible">updated in 2021/10/01</div>
+      <div className="text-0.5xl text-yellow-800 mt-0.5 ml-40 sm:visible invisible">updated in 2021/11/01</div>
     </>
   );
 }
