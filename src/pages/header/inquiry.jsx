@@ -248,7 +248,7 @@ const Inquiry = () => {
                   </div>
                   <div>
                     <Field
-                      className="w-96 text-0.5xl"
+                      className="w-3/5 text-0.5xl"
                       name="email"
                       id="email"
                       type="email"
@@ -260,7 +260,7 @@ const Inquiry = () => {
                 </div>
                 <div>
                   <div>
-                    <label htmlFor="address">お住まい</label>
+                    <label htmlFor="address">お住まい(都道府県から)</label>
                   </div>
                   <div>
                     <Field
