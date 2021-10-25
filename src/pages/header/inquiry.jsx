@@ -289,7 +289,7 @@ const Inquiry = () => {
                   </div>
                   <div>
                     <Field
-                      className="h-36 w-96"
+                      className="h-36 w-3/5"
                       name="content"
                       id="content"
                       component="textarea"
