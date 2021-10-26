@@ -34,3 +34,30 @@
 
  -アーカイブページ
 <img src="/public/images/src2.jpg">
+
+// 放送作成 /admin/bradcasts/create
+import Head from "next/head";
+import type { NextPage } from "next";
+import Link from "next/link";
+
+const createBroadcast: NextPage = () => {
+  return (
+    <>
+    <Head>
+      <title>放送作成ページ</title>
+    </Head>
+    <div className="bg-gray-200 h-screen">
+      <div className="text-4xl w-3/5 mx-auto mb-5">放送を作成</div>
+    </div>
+    <div>
+      {/* 入力行を作る */}
+    </div>
+    <div>
+      <Link className="">投稿する</Link>
+    </div>
+    <div>
+      <Link className="">キャンセル</Link>
+    </div>
+  </>
+)}
+export default createBroadcast;
