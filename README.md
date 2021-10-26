@@ -35,7 +35,7 @@
  -アーカイブページ
 <img src="/public/images/src2.jpg">
 
-// 放送作成 /admin/bradcasts/create
+// 放送作成ページ /admin/bradcasts/create
 import Head from "next/head";
 import type { NextPage } from "next";
 import Link from "next/link";
@@ -48,15 +48,18 @@ const createBroadcast: NextPage = () => {
     </Head>
     <div className="bg-gray-200 h-screen">
       <div className="text-4xl w-3/5 mx-auto mb-5">放送を作成</div>
+    <div className="h-40 bg-white">
+      {/* 入力行を2行作る */}
     </div>
-    <div>
-      {/* 入力行を作る */}
+    <div className="flex">
+    <div className="text-white w-40 mx-24 mt-12">
+      {/* ボタン機能に変更？ */}
+      <Link href="/">投稿する</Link>
     </div>
-    <div>
-      <Link className="">投稿する</Link>
+    <div className="w-40 mx-24 mt-12">
+      <Link href="/">キャンセル</Link>
     </div>
-    <div>
-      <Link className="">キャンセル</Link>
+    </div>
     </div>
   </>
 )}
