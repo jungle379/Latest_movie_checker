@@ -73,10 +73,10 @@ const createBroadcast: NextPage = () => {
         </div>
         <div className="flex mt-20 w-3/5 mx-auto">
           <div className="text-red-300 w-40 mx-24 mt-12">
-            {/* ボタン機能に変更？ */}
+            {/* ボタン機能に変更が必要？ */}
             <Link href="/">投稿する</Link>
           </div>
-          <div className="text-blue-500 mx-24 mt-12 bg-blue-100 rounded-2xl h-12 w-32">
+          <div className="text-blue-500 mx-24 mt-12 bg-blue-100 rounded-2xl h-16 w-32 text-center py-5">
             <Link href="/">キャンセル</Link>
           </div>
         </div>
@@ -85,3 +85,4 @@ const createBroadcast: NextPage = () => {
   )
 }
 export default createBroadcast;
+
