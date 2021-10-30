@@ -17,7 +17,7 @@ const Creater = () => {
       <Head>
         <title>作成者情報</title>
       </Head>
-      <main className="sm:h-screen sm:bg-green-100 bg-green-300">
+      <div className="sm:h-screen sm:bg-green-100 bg-green-300">
         <Header />
         <div className="sm:text-4xl ml-20 mt-20 text-red-500">
           作成者について
@@ -28,15 +28,19 @@ const Creater = () => {
         <div className="text-2xl text-blue-500 ml-40 mt-10 flex">
           <FontAwesomeIcon className="h-10 mr-5" icon={faTwitterSquare} />
           <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
-          <Link href="https://twitter.com/hirokimorino">twitter</Link>
+          <Link href="https://twitter.com/hirokimorino">
+            <a>twitter</a>
+          </Link>
         </div>
         <div className="text-2xl text-blue-700 ml-40 mt-10">
           <FontAwesomeIcon className="h-10 mr-5" icon={faFacebookSquare} />
           <FontAwesomeIcon className="h-10 mr-5" icon={faChevronRight} />
-          <Link href="https://www.facebook.com/hiroki.morino.9">facebook</Link>
+          <Link href="https://www.facebook.com/hiroki.morino.9">
+            <a>facebook</a>
+          </Link>
         </div>
         {/* <Test /> */}
-      </main>
+      </div>
       <Footer />
     </>
   );
