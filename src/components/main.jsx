@@ -4,6 +4,7 @@ import { Header } from "./header";
 export function Main() {
   return (
     <>
+      {/* ここからヘッダー部 */}
       <Header />
       <div className="mt-20 flex sm:h-20 justify-around ml-5 mr-5">
         <Link href="/newest/latest">
