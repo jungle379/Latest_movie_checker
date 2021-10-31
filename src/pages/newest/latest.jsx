@@ -15,7 +15,7 @@ export default function Latest() {
           今週公開の映画一覧
           <h1 className="sm:text-2xl mt-10 ml-10 sm:ml-40 text-indigo-500 hover:text-red-500">
             <Link href="/">
-              <a>・007(公開中)</a>
+              <a>・007-ノー・タイム・トゥ・ダイ(公開中)</a>
             </Link>
           </h1>
         </div>
