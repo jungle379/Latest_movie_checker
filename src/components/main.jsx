@@ -66,7 +66,7 @@ export function Main() {
             </Link>
           </div>
           <div className="py-5">
-            <Link href="/">
+            <Link href="../corona">
               <a className="text-1xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">
                 コロナウィルス対策について
               </a>
