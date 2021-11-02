@@ -31,7 +31,7 @@ export function Main() {
 
       {/* ここからメインの下部 */}
 
-      <div className="sm:flex justify-around mt-20 h-96 sm:border-dashed sm:border-8 sm:border-red-400 mr-40 ml-40 pl-10 pr-10">
+      <div className="sm:flex sm:justify-around sm:border-dashed sm:border-8 sm:border-red-400 mx-10 my-10">
         <div>
           <h1 className="sm:text-4xl mt-10">〜最新情報〜</h1>
           <h2 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
@@ -50,7 +50,7 @@ export function Main() {
             </Link>
           </h4>
         </div>
-        <div className="mx-10 my-10 text-center">
+        <div className="mx-10 my-10 text-center sm:visible invisible">
           <div className="py-5">
             <Link href="../category">
               <a className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">
@@ -68,7 +68,7 @@ export function Main() {
           <div className="py-5">
             <Link href="../corona">
               <a className="text-1xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">
-                コロナウィルス対策について
+                ※コロナウィルス対策について
               </a>
             </Link>
           </div>
