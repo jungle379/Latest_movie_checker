@@ -59,7 +59,7 @@ export function Main() {
             </Link>
           </div>
           <div className="py-5">
-            <Link href="/">
+            <Link href="../academy">
               <a className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">
                 アカデミー賞候補
               </a>
@@ -74,7 +74,7 @@ export function Main() {
           </div>
         </div>
       </div>
-      <div className="text-0.5xl text-yellow-800 mt-0.5 ml-40 sm:visible invisible">
+      <div className="text-0.5xl text-yellow-800 ml-10 sm:visible invisible">
         updated in 2021/11/01
       </div>
     </>
