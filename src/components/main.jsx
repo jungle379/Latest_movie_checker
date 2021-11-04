@@ -24,7 +24,7 @@ export function Main() {
         </Link>
         <Link href="../theathers">
           <a className="bg-center w-1/4 text-center bg-gray-200 text-0.5xl md:text-2xl pt-5 pl-5 pr-5 hover:text-red-500 border-solid sm:border-4 sm:border-gray-400 border-2 border-gray-600">
-            シネコン一覧へ
+            全国のシネコン一覧へ
           </a>
         </Link>
       </div>
