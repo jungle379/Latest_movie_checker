@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 
-const notify = () => toast.error('ネットワークがつながっていません。');
+const notify = () => toast.error("ネットワークがつながっていません。");
 
 const ClerkFeatures = () => (
   <Link href="/user">
@@ -36,13 +36,19 @@ export function Header() {
   return (
     <div className="pl-10 font-thin underline flex">
       <Link href="/">
-        <a className="sm:text-6xl sm:text-red-600 w-2/5">Latest Movie Checker</a>
+        <a className="sm:text-6xl sm:text-red-600 w-2/5">
+          Latest Movie Checker
+        </a>
       </Link>
       <Link href="/header/beginner">
-        <a className="flex-none text-0.5xl sm:text-1xl ml-10 m-5 w-30 hover:text-red-600 underline">初めての方へ</a>
+        <a className="flex-none text-0.5xl sm:text-1xl ml-10 m-5 w-30 hover:text-red-600 underline">
+          初めての方へ
+        </a>
       </Link>
       <Link href="/header/creater">
-        <a className="flex-none text-0.5xl sm:text-1xl ml-10 m-5 w-30 hover:text-red-600 underline">作成者について</a>
+        <a className="flex-none text-0.5xl sm:text-1xl ml-10 m-5 w-30 hover:text-red-600 underline">
+          作成者について
+        </a>
       </Link>
       {/* <div>
         <button className="ml-10 mt-5 hover:text-red-600 underline" onClick={notify}>ネットワーク確認</button>
@@ -79,6 +85,6 @@ export function Header() {
             </a>
           </Link>
         </div> */}
-    </div >
+    </div>
   );
 }
