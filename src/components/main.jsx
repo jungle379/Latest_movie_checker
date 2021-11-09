@@ -61,7 +61,7 @@ export function Main() {
           <div className="py-5">
             <Link href="../academy">
               <a className="text-2xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">
-                アカデミー賞候補
+                アカデミー賞候補の作品
               </a>
             </Link>
           </div>
