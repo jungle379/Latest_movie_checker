@@ -17,7 +17,7 @@ const Creater = () => {
       <Head>
         <title>作成者情報</title>
       </Head>
-      <div className="sm:h-screen sm:bg-green-100 bg-green-300">
+      <div className="sm:h-full sm:bg-green-100 bg-green-300">
         <Header />
         <div className="sm:text-4xl ml-20 mt-20 text-red-500">
           作成者について
