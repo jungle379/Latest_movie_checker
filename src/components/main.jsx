@@ -31,7 +31,7 @@ export function Main() {
 
       {/* ここからメインの下部 */}
 
-      <div className="sm:flex sm:justify-around sm:border-dashed sm:border-8 sm:border-red-400 mx-10 my-10">
+      <div className="sm:flex sm:justify-around sm:border-dashed sm:border-8 sm:border-red-400 mx-10 mt-10">
         <div>
           <h1 className="sm:text-4xl mt-10">〜最新情報〜</h1>
           <h2 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
