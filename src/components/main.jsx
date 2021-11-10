@@ -44,7 +44,7 @@ export function Main() {
               <a>・過去の情報</a>
             </Link>
           </h3>
-          <h4 className="mt-10 mb-5 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
+          <h4 className="mt-10 mb-10 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
             <Link href="/maintainance">
               <a>・メンテナンス情報</a>
             </Link>
