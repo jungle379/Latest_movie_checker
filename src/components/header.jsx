@@ -50,7 +50,7 @@ export function Header() {
           作成者について
         </a>
       </Link>
-      <div>
+      {/* <div>
         <button
           className="ml-10 mt-5 hover:text-red-600 underline"
           onClick={notify}
@@ -58,7 +58,7 @@ export function Header() {
           ネットワーク確認
         </button>
         <Toaster />
-      </div>
+      </div> */}
       <div>
         <div className="sm:visible invisible ml-10 mt-5 hover:text-red-600">
           <SignedIn>
