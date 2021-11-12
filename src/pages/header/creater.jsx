@@ -21,7 +21,7 @@ const Creater = () => {
         <Header />
         <div className="sm:text-4xl ml-20 mt-20 text-red-500">
           作成者について
-          <h1 className="sm:text-4xl mt-10 ml-10 text-black">森野　弘規</h1>
+          <h1 className="sm:text-2xl mx-10 my-10 text-black">森野　弘規</h1>
           <Introduce />
         </div>
         <div className="sm:text-4xl ml-20 mt-10 text-red-500">SNS</div>
