@@ -10,10 +10,6 @@ const ClerkFeatures = () => (
       <div>
         <h3>ユーザー管理ページへ</h3>
       </div>
-      {/* <div className="flex">
-        <img src="/icons/arrow-right.svg" />
-        <img src="/icons/layout.svg" />
-      </div> */}
     </a>
   </Link>
 );
@@ -24,10 +20,6 @@ const SignupLink = () => (
       <div>
         <h3>アカウント作成</h3>
       </div>
-      {/* <div className="flex">
-        <img src="/icons/arrow-right.svg" />
-        <img src="/icons/user-plus.svg" />
-      </div> */}
     </a>
   </Link>
 );
