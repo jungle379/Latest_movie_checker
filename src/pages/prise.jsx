@@ -13,6 +13,7 @@ const Prise = () => {
         <div className="text-4xl text-blue-600 mx-20 my-10">
           アカデミー賞候補(2022)
         </div>
+        <div className="text-center text-6xl">これから作っていきます！</div>
       </div>
       <Footer />
     </>
