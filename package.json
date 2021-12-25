@@ -37,6 +37,7 @@
     "swr": "^1.0.1",
     "tailwind-mobile": "^0.4.6",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2",
+    "valtio": "^1.2.7",
     "yup": "^0.32.9"
   },
   "devDependencies": {

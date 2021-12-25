@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { Header } from "./header";
+import { proxy, useSnapshot } from "valtio";
+
+const state = proxy({ count: 0, text: "hello" });
 
 export function Main() {
+  const snap = useSnapshot(state);
   return (
     <>
       {/* ここからヘッダー部 */}
@@ -74,8 +78,14 @@ export function Main() {
           </div> */}
         </div>
       </div>
-      <div className="text-0.5xl text-yellow-800 ml-10 sm:visible invisible">
-        updated in 2021/11/01
+      <div className="flex">
+        <div className="text-0.5xl text-yellow-800 ml-10 sm:visible invisible">
+          updated in 2021/11/01
+        </div>
+        <div className="mx-20">
+          {snap.count}
+          <button onClick={() => ++state.count}>count up!</button>
+        </div>
       </div>
     </>
   );
