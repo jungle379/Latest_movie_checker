@@ -6,39 +6,42 @@ import { Header } from "../../components/header";
 const ITEMS = [
   {
     href: "/",
-    title: "舞台挨拶情報"
-  }, {
+    title: "舞台挨拶情報",
+  },
+  {
     href: "/",
-    title: "1つ目です"
-  }, {
+    title: "1つ目です",
+  },
+  {
     href: "/",
-    title: "2つ目です"
-  }
+    title: "2つ目です",
+  },
 ];
 
 const News = () => {
-  return <>
-    <Head>
-      <title>最新のニュース</title>
-    </Head>
-    <div className="h-screen sm:bg-green-100 bg-green-300">
-      <Header />
-      <div className="ml-10 mt-10 sm:text-2xl">最新のニュース一覧</div>
-      <div>
-        {ITEMS.map(item => {
-          return (
-            <div className="sm:text-2xl text-blue-500 pt-10 pl-10">
-              <Link href={item.href}>
-                <li>{item.title}</li>
-              </Link>
-            </div>
-          )
-        })}
+  return (
+    <>
+      <Head>
+        <title>最新のニュース</title>
+      </Head>
+      <div className="h-screen sm:bg-green-100 bg-green-300">
+        <Header />
+        <div className="ml-10 mt-10 sm:text-2xl">最新のニュース一覧</div>
+        <div>
+          {ITEMS.map((item) => {
+            return (
+              <div className="sm:text-2xl text-blue-500 pt-10 pl-10">
+                <Link href={item.href}>
+                  <a>{"・" + item.title}</a>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
-    <Footer />
-  </>
+      <Footer />
+    </>
+  );
 };
 
 export default News;
-

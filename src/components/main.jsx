@@ -80,8 +80,9 @@ export function Main() {
       </div>
       <div className="flex">
         <div className="text-0.5xl text-yellow-800 ml-10 sm:visible invisible">
-          updated in 2021/11/01
+          updated in 2022/1/1
         </div>
+        {/* valtioを使用した状態管理によるカウントアップ */}
         <div className="mx-20">
           {snap.count}
           <button onClick={() => ++state.count}>count up!</button>
