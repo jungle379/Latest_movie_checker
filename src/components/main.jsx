@@ -69,24 +69,22 @@ export function Main() {
               </a>
             </Link>
           </div>
-          {/* <div className="py-5">
+          <div className="py-5">
             <Link href="../corona">
               <a className="text-1xl sm:text-1xl mt-10 ml-10 m-5 w-80 underline hover:text-red-500 invisible sm:visible">
                 ※コロナウィルス対策について
               </a>
             </Link>
-          </div> */}
+          </div>
         </div>
       </div>
-      <div className="flex">
-        <div className="text-0.5xl text-yellow-800 ml-10 sm:visible invisible">
-          updated in 2022/1/1
-        </div>
-        {/* valtioを使用した状態管理によるカウントアップ */}
-        <div className="mx-20">
-          {snap.count}
-          <button onClick={() => ++state.count}>count up!</button>
-        </div>
+      <div className="text-0.5xl text-yellow-800 ml-10 sm:visible invisible">
+        updated in 2022/1/1
+      </div>
+      {/* valtioを使用した状態管理によるカウントアップ */}
+      <div className="my-5 mx-10 text-2xl">
+        {snap.count}
+        <button onClick={() => ++state.count}>count up!</button>
       </div>
     </>
   );
