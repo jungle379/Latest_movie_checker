@@ -82,7 +82,7 @@ export function Main() {
         updated in 2022/1/1
       </div>
       {/* valtioを使用した状態管理によるカウントアップ */}
-      <div className="my-5 mx-10 text-2xl">
+      <div className="mt-5 mx-10 text-2xl">
         {snap.count}
         <button onClick={() => ++state.count}>count up!</button>
       </div>
