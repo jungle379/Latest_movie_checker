@@ -6,53 +6,62 @@ import { Header } from "../components/header";
 const ITEMS = [
   {
     href: "../cat/action",
-    title: "・アクション"
-  }, {
+    title: "・アクション",
+  },
+  {
     href: "../cat/fantasy",
-    title: "・ファンタジー"
-  }, {
+    title: "・ファンタジー",
+  },
+  {
     href: "/",
-    title: "・アニメ"
-  }, {
+    title: "・アニメ",
+  },
+  {
     href: "/",
-    title: "・ラブコメ"
-  }, {
+    title: "・ラブコメ",
+  },
+  {
     href: "/",
-    title: "・ドラマ"
-  }, {
+    title: "・ドラマ",
+  },
+  {
     href: "/",
-    title: "・ホラー"
-  }, {
+    title: "・ホラー",
+  },
+  {
     href: "/",
-    title: "・サスペンス"
-  }, {
+    title: "・サスペンス",
+  },
+  {
     href: "../cat/musical",
-    title: "・ミュージカル"
-  }
+    title: "・ミュージカル",
+  },
 ];
 
 const Category = () => {
-  return <>
-    <Head>
-      <title>ジャンル別オススメ作品</title>
-    </Head>
-    <div className="h-hull sm:bg-green-100 bg-green-300">
-      <Header />
-      <div>
-        <div className="sm:text-4xl text-blue-800 ml-10 mt-16">ジャンル</div>
-        {ITEMS.map(item => {
-          return (
-            <div className="sm:text-2xl text-blue-500 pt-10 pl-20 hover:text-red-600 w-72">
-              <Link href={item.href}>
-                <a>{item.title}</a>
-              </Link>
-            </div>
-          )
-        })}
+  return (
+    <>
+      <Head>
+        <title>ジャンル別オススメ作品</title>
+      </Head>
+      <div className="sm:h-screen sm:bg-green-100 bg-green-300">
+        <Header />
+        <div>
+          <div className="sm:text-4xl text-blue-800 ml-10 mt-16">ジャンル</div>
+          {ITEMS.map((item) => {
+            return (
+              <div className="sm:text-2xl text-blue-500 pt-10 pl-20 hover:text-red-600 w-72">
+                <Link href={item.href}>
+                  <a>{item.title}</a>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  </>
+    </>
+  );
 };
 
 export default Category;
