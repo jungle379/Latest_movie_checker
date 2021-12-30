@@ -38,17 +38,17 @@ export function Main() {
       <div className="sm:flex sm:justify-around sm:border-dashed sm:border-8 sm:border-red-400 mx-10 mt-10">
         <div>
           <h1 className="sm:text-4xl mt-10">〜最新情報〜</h1>
-          <h2 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
+          <h2 className="mt-10 sm:text-2xl sm:w-100 hover:text-red-500 underline">
             <Link href="/newest/news1">
               <a>・最新の情報一覧</a>
             </Link>
           </h2>
-          <h3 className="mt-10 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
+          <h3 className="mt-10 sm:text-2xl sm:w-100 hover:text-red-500 underline">
             <Link href="/newest/ex-news">
               <a>・過去の情報</a>
             </Link>
           </h3>
-          <h4 className="mt-10 mb-10 sm:text-2xl sm:w-100 text-blue-500 hover:text-red-500 underline">
+          <h4 className="mt-10 mb-10 sm:text-2xl sm:w-100 hover:text-red-500 underline">
             <Link href="/maintainance">
               <a>・メンテナンス情報</a>
             </Link>
