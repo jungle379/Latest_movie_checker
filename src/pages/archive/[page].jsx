@@ -24,7 +24,7 @@ export default function Archive(props) {
           <div key={post.id} className="post-teaser">
             <div className="sm:text-2xl text-indigo-500 hover:text-red-700 mb-10 sm:ml-40">
               <Link href="/posts/[id]" as={`/posts/${post.id}`}>
-                <a>{"・" + post.title}</a>
+                <a>{`・${post.title}`}</a>
               </Link>
             </div>
             <div>
