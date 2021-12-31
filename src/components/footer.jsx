@@ -5,7 +5,7 @@ export function Footer() {
     <Link href="/">
       <a>
         <div className="leading-10 text-center sm:bg-green-100 bg-green-300">
-          To_movie_fun.inc
+          To_Movies_Fun.inc
         </div>
       </a>
     </Link>
