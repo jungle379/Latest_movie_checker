@@ -13,11 +13,31 @@ export default function Latest() {
         <Header />
         <div className="sm:text-4xl text-blue-800 m-20">
           今週公開の映画一覧
-          <h1 className="sm:text-2xl mt-10 ml-10 sm:ml-40 text-indigo-500 hover:text-red-500">
+          <div className="sm:text-2xl mt-10 ml-10 sm:ml-20 text-indigo-500 hover:text-red-500">
             <Link href="/">
-              <a>・007-ノー・タイム・トゥ・ダイ(公開中)</a>
+              <a>・99.9_刑事専門弁護士(公開中)</a>
             </Link>
-          </h1>
+          </div>
+          <div className="sm:text-2xl mt-10 ml-10 sm:ml-20 text-indigo-500 hover:text-red-500">
+            <Link href="/">
+              <a>・あなたの番です(公開中)</a>
+            </Link>
+          </div>
+          <div className="sm:text-2xl mt-10 ml-10 sm:ml-20 text-indigo-500 hover:text-red-500">
+            <Link href="/">
+              <a>・キングスマン_ファースト_エージェント(公開中)</a>
+            </Link>
+          </div>
+          <div className="sm:text-2xl mt-10 ml-10 sm:ml-20 text-indigo-500 hover:text-red-500">
+            <Link href="/">
+              <a>・呪術廻戦0(公開中)</a>
+            </Link>
+          </div>
+          <div className="sm:text-2xl mt-10 ml-10 sm:ml-20 text-indigo-500 hover:text-red-500">
+            <Link href="/">
+              <a>・マトリックス_レザレクションズ(公開中)</a>
+            </Link>
+          </div>
         </div>
         <Footer />
       </main>
