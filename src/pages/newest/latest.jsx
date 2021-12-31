@@ -9,7 +9,7 @@ export default function Latest() {
       <Head>
         <title>今週公開の映画一覧</title>
       </Head>
-      <main className="h-screen sm:bg-green-100 bg-green-300">
+      <div className="h-screen sm:bg-green-100 bg-green-300">
         <Header />
         <div className="sm:text-4xl text-blue-800 m-20">
           今週公開の映画一覧
@@ -40,7 +40,7 @@ export default function Latest() {
           </div>
         </div>
         <Footer />
-      </main>
+      </div>
     </>
   );
 }
