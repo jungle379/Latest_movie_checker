@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import { Header } from "../../components/header";
@@ -27,7 +26,7 @@ const Inquiry = () => {
             </li>
           </div>
         </div>
-        <div className="sm:pl-96 sm:text-2xl">
+        <div className="pl-14 sm:pl-96">
           <Formik
             initialValues={{
               inquiryType: "",
@@ -70,18 +69,20 @@ const Inquiry = () => {
                     aria-required="true"
                     aria-invalid={errors.inquiryType ? "true" : "false"}
                   >
-                    <legend id="labelInquiryType">
-                      お問い合わせ種別
-                      <span className="text-red-600 pl-5">必須</span>
-                      <ErrorMessage name="inquiryType">
-                        {(msg) => (
-                          <span aria-live="polite">
-                            <FontAwesomeIcon icon={faExclamationTriangle} />
-                            {msg}
-                          </span>
-                        )}
-                      </ErrorMessage>
-                    </legend>
+                    <div className="sm:text-2xl">
+                      <legend id="labelInquiryType">
+                        お問い合わせ種別
+                        <span className="text-red-600 pl-5">必須</span>
+                        <ErrorMessage name="inquiryType">
+                          {(msg) => (
+                            <span aria-live="polite">
+                              <FontAwesomeIcon icon={faExclamationTriangle} />
+                              {msg}
+                            </span>
+                          )}
+                        </ErrorMessage>
+                      </legend>
+                    </div>
                     <div>
                       <ul role="radiogroup" aria-labelledby="labelInquiryType">
                         <li>
@@ -124,18 +125,20 @@ const Inquiry = () => {
                     aria-required="true"
                     aria-invalid={errors.service ? "true" : "false"}
                   >
-                    <legend id="labeService">
-                      お問い合わせ内容
-                      <span className="text-red-600 pl-5">必須</span>
-                      <ErrorMessage name="service">
-                        {(msg) => (
-                          <span aria-live="polite">
-                            <FontAwesomeIcon icon={faExclamationTriangle} />
-                            {msg}
-                          </span>
-                        )}
-                      </ErrorMessage>
-                    </legend>
+                    <div className="sm:text-2xl">
+                      <legend id="labeService">
+                        お問い合わせ内容
+                        <span className="text-red-600 pl-5">必須</span>
+                        <ErrorMessage name="service">
+                          {(msg) => (
+                            <span aria-live="polite">
+                              <FontAwesomeIcon icon={faExclamationTriangle} />
+                              {msg}
+                            </span>
+                          )}
+                        </ErrorMessage>
+                      </legend>
+                    </div>
                     <div>
                       <ul role="group" aria-labelledby="labeService">
                         <li>
@@ -170,7 +173,7 @@ const Inquiry = () => {
                   </fieldset>
                 </div>
                 <div>
-                  <div className="mt-5">
+                  <div className="mt-5 text-2xl">
                     <label htmlFor="company">
                       職業
                       <span className="text-red-600 pl-5">必須</span>
@@ -186,7 +189,7 @@ const Inquiry = () => {
                   </div>
                   <div>
                     <Field
-                      className="w-72"
+                      className="w-72 text-2xl"
                       component="select"
                       name="company"
                       id="company"
@@ -205,7 +208,7 @@ const Inquiry = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="mt-5">
+                  <div className="mt-5 text-2xl">
                     <label htmlFor="name">
                       氏名
                       <span className="text-red-600 pl-5">必須</span>
@@ -221,7 +224,7 @@ const Inquiry = () => {
                   </div>
                   <div>
                     <Field
-                      className="w-72"
+                      className="w-72 text-2xl"
                       name="name"
                       id="name"
                       type="text"
@@ -232,7 +235,7 @@ const Inquiry = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="mt-5">
+                  <div className="mt-5 text-2xl">
                     <label htmlFor="email">
                       メールアドレス
                       <span className="text-red-600 pl-5">必須</span>
@@ -248,7 +251,7 @@ const Inquiry = () => {
                   </div>
                   <div>
                     <Field
-                      className="w-3/5 text-0.5xl"
+                      className="w-3/5 text-2xl"
                       name="email"
                       id="email"
                       type="email"
@@ -259,12 +262,12 @@ const Inquiry = () => {
                   </div>
                 </div>
                 <div>
-                  <div>
+                  <div className="mt-5 text-2xl">
                     <label htmlFor="address">お住まい(都道府県から)</label>
                   </div>
                   <div>
                     <Field
-                      className="w-96"
+                      className="w-96 text-2xl"
                       name="address"
                       id="address"
                       component="textarea"
@@ -289,7 +292,7 @@ const Inquiry = () => {
                   </div>
                   <div>
                     <Field
-                      className="h-36 w-3/5"
+                      className="h-24 w-3/5 text-2xl"
                       name="content"
                       id="content"
                       component="textarea"
@@ -301,7 +304,7 @@ const Inquiry = () => {
                 </div>
                 <div className="sm:pl-64 pl-20">
                   <button
-                    className="text-2xl mt-10 border-gray-500 border-2 bg-gray-300 hover:bg-pink-200 hover:opacity-75"
+                    className="text-2xl my-10 border-gray-500 border-2 bg-gray-300 hover:bg-pink-200 hover:opacity-75"
                     disabled={isSubmitting}
                     type="submit"
                     id="submit"
