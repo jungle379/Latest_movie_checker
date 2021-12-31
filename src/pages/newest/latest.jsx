@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 
-export default function Latest() {
+const Latest = () => {
   return (
     <>
       <Head>
@@ -43,4 +43,6 @@ export default function Latest() {
       </div>
     </>
   );
-}
+};
+
+export default Latest;
