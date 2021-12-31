@@ -2,10 +2,10 @@ import Link from "next/link";
 import { Header } from "./header";
 import { proxy, useSnapshot } from "valtio";
 
-const state = proxy({ count: 0, text: "hello" });
+// const state = proxy({ count: 0, text: "hello" });
 
 export function Main() {
-  const snap = useSnapshot(state);
+  // const snap = useSnapshot(state);
   return (
     <>
       {/* ここからヘッダー部 */}
