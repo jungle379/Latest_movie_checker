@@ -276,7 +276,7 @@ const Inquiry = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="mt-5">
+                  <div className="mt-5 text-2xl">
                     <label htmlFor="content">
                       お問い合わせ内容
                       <span className="text-red-600 pl-5">必須</span>
