@@ -26,11 +26,11 @@ const News = () => {
       </Head>
       <div className="h-screen sm:bg-green-100 bg-green-300">
         <Header />
-        <div className="ml-10 mt-10 sm:text-2xl">最新のニュース一覧</div>
+        <div className="ml-10 mt-10 sm:text-4xl">最新のニュース一覧</div>
         <div>
           {ITEMS.map((item) => {
             return (
-              <div className="sm:text-2xl text-blue-500 pt-10 pl-10">
+              <div className="sm:text-2xl text-blue-500 mx-20 my-10">
                 <Link href={item.href}>
                   <a>{"・" + item.title}</a>
                 </Link>

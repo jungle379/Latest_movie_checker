@@ -6,35 +6,35 @@ import { Footer } from "../components/footer";
 const ITEMS = [
   {
     href: "https://www.tohotheater.jp/index.html",
-    title: "TOHOシネマズ",
+    title: "・TOHOシネマズ",
   },
   {
     href: "https://109cinemas.net",
-    title: "109シネマズ",
+    title: "・109シネマズ",
   },
   {
     href: "https://tjoy.jp/shinjuku_wald9",
-    title: "新宿バルト9",
+    title: "・新宿バルト9",
   },
   {
     href: "https://www.aeoncinema.com",
-    title: "イオンモールシネマ",
+    title: "・イオンモールシネマ",
   },
   {
     href: "https://www.osakastationcitycinema.com/site/oscc/",
-    title: "大阪ステーションシネマ",
+    title: "・大阪ステーションシネマ",
   },
   {
     href: "https://ttcg.jp/#/",
-    title: "テアトル系劇場",
+    title: "・テアトル系劇場",
   },
   {
     href: "https://tjoy.jp/umeda_burg7",
-    title: "梅田ブルク７",
+    title: "・梅田ブルク７",
   },
 ];
 
-const Others = () => {
+const Theathers = () => {
   return (
     <>
       <Head>
@@ -60,4 +60,4 @@ const Others = () => {
   );
 };
 
-export default Others;
+export default Theathers;
